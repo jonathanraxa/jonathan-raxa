@@ -1,0 +1,123 @@
+.NavBar li a:hover, .NavBar li a:focus {
+    border-color: #991919;
+    outline: 0;
+}
+.NavBar .fRight{
+    float:right;  
+}
+.NavBar .fLeft{
+    float:left;
+}
+
+.NavBar li a{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #fff;
+    border-bottom: 1px solid;
+    border-color: #fff;
+    margin: 10px 15px;
+    padding: 0 0 2px 0;
+}
+.NavBar .nav-item{
+    text-decoration: none !important;
+}
+.NavBar .nav {
+  background-color: var(--off-white);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+.NavBar a{
+    color: rgb(218, 214, 214);
+}
+.NavBar a:hover{
+    color: #fec503;
+    text-decoration: underline;
+}
+.NavBar .navbar-dark .navbar-nav .nav-link{
+    color: rgb(218, 214, 214);
+}
+.NavBar .navbar-dark .navbar-nav .nav-link:hover{
+    color: #fec503 !important;
+    text-decoration: underline !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
+    color: #fec503 !important;
+    text-decoration: underline;
+}
+.NavBar .nav-logo {
+  height: 60px;
+  width: 60px;
+}
+.navbar-toggler{
+    background-color:#ecb90f;
+}
+.NavBar .nav-logo:hover {
+  cursor: pointer;
+}
+.NavBar li a:hover{
+  text-decoration: none;
+      color: #fec503 !important;
+
+}
+
+.NavBar .nav .nav-content {
+  max-width: 100%;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.NavBar .nav-item {
+  display: inline;
+  color: #333;
+}
+
+.NavBar .nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.NavBar .nav-items{
+  margin-bottom: 0;
+}
+
+.capitalizeLi{
+    text-transform: uppercase;
+}
+
+.Footer a i:hover{
+    color: #fec503 !important;
+}
+@media (max-width: 986px) {
+  .sds_hide-at-lg-nav{
+    display: block !important;
+  }
+  .sds_show-at-lg-nav{
+    display: none !important;
+  }
+  .navigation-items{
+      display:none;
+  }
+}
+
+@media (min-width: 987px) {
+  .sds_show-at-lg-nav{
+    display: block !important;
+  }
+  .sds_hide-at-lg-nav{
+    display: none !important;
+  }
+}
+
+
+

@@ -1,0 +1,49 @@
+.leftAlign{
+    text-align: left;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+.colorRed{
+    color: #c56161;
+}
+.Collapsible__trigger{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Collapsible__trigger:hover{
+    background-color: #fed136;
+}
+
+.Projects .paddBottom1em{
+    padding-bottom: 1em;
+}
+
+.noMarginBottom{
+    margin-bottom: 0;
+}
+
+/* hover state over projects */
+.Collapsible__trigger {
+  position: relative;
+  display: inline-block;
+  text-decoration: underline;
+}
+/* 
+.tooltiptext {
+     visibility: hidden;
+    width: 65%;
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1em 0em;
+    position: absolute;
+    z-index: 1;
+}
+
+.portfolio-item:hover .tooltiptext {
+  visibility: visible;
+} */
