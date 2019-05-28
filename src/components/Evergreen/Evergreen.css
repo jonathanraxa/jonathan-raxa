@@ -1,28 +1,27 @@
 .NavBar li a:hover, .NavBar li a:focus {
-    border-color: #991919;
-    outline: 0;
+  border-color: #991919;
+  outline: 0;
 }
 .NavBar .fRight{
-    float:right;  
+  float:right;  
 }
 .NavBar .fLeft{
-    float:left;
+  float:left;
 }
-
 .NavBar li a{
-    font-family: "Roboto",sans-serif;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    color: #fff;
-    border-bottom: 1px solid;
-    border-color: #fff;
-    margin: 10px 15px;
-    padding: 0 0 2px 0;
+  font-family: "Roboto",sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #fff;
+  border-bottom: 1px solid;
+  border-color: #fff;
+  margin: 10px 15px;
+  padding: 0 0 2px 0;
 }
 .NavBar .nav-item{
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 .NavBar .nav {
   background-color: var(--off-white);
@@ -34,39 +33,37 @@
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
 .NavBar a{
-    color: rgb(218, 214, 214);
+  color: rgb(218, 214, 214);
 }
 .NavBar a:hover{
-    color: #fec503;
-    text-decoration: underline;
+  color: #fec503;
+  text-decoration: underline;
 }
 .NavBar .navbar-dark .navbar-nav .nav-link{
-    color: rgb(218, 214, 214);
+  color: rgb(218, 214, 214);
 }
 .NavBar .navbar-dark .navbar-nav .nav-link:hover{
-    color: #fec503 !important;
-    text-decoration: underline !important;
+  color: #fec503 !important;
+  text-decoration: underline !important;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
-    color: #fec503 !important;
-    text-decoration: underline;
+  color: #fec503 !important;
+  text-decoration: underline;
 }
 .NavBar .nav-logo {
   height: 60px;
   width: 60px;
 }
 .navbar-toggler{
-    background-color:#ecb90f;
+  background-color:#ecb90f;
 }
 .NavBar .nav-logo:hover {
   cursor: pointer;
 }
 .NavBar li a:hover{
   text-decoration: none;
-      color: #fec503 !important;
-
+  color: #fec503 !important;
 }
-
 .NavBar .nav .nav-content {
   max-width: 100%;
   padding: 0rem 3rem;
@@ -76,27 +73,26 @@
   align-items: center;
   height: 100%;
 }
-
 .NavBar .nav-item {
   display: inline;
   color: #333;
 }
-
 .NavBar .nav-item:hover {
   color: black;
   cursor: pointer;
 }
-
 .NavBar .nav-items{
   margin-bottom: 0;
 }
-
 .capitalizeLi{
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
-
 .Footer a i:hover{
-    color: #fec503 !important;
+  color: #fec503 !important;
+}
+.Footer .center-margin{
+  margin: 0 auto;
+  text-align: center;
 }
 .NavBarHome{
   max-width: 1920px;
@@ -105,6 +101,22 @@
 .Footer{
   max-width: 1920px;
   margin: 0 auto;
+}
+@media (max-width: 767px){
+  .col.icon-col{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .Footer .section-content{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    white-space: nowrap !important;
+  }
+  .Footer footer{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+  }
 }
 @media (max-width: 986px) {
   .sds_hide-at-lg-nav{
@@ -117,7 +129,6 @@
       display:none;
   }
 }
-
 @media (min-width: 987px) {
   .sds_show-at-lg-nav{
     display: block !important;
