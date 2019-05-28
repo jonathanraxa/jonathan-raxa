@@ -3,7 +3,7 @@ import '../../Assets/Assets';
 
 const Personal = () => {
     return (
-        <div className="Personal" >
+        <div className="Personal" id="personal">
             <div className="row">
                 <div className="col-md-2">
                     <strong>Personal/Other</strong>

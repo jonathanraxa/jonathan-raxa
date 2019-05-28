@@ -4,7 +4,7 @@ export const TechExperienceThree = () => {
     return (
         <div>
             <div className="row pad2emTopBot">
-                <div className="col-lg-12 text-center">
+                <div className="col-lg-12 text-center custom-row-width-col">
                     <div className="mz-about-container">
                         <h2 className="resume-title">Technology Consultant&nbsp;|&nbsp;General IT Assistant</h2>
                         <p>SFSU I.T. Department (ITS) & College of Education I.T. (POETS)&nbsp;|&nbsp;Feb 2015 – April 2016</p>

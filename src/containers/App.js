@@ -3,7 +3,6 @@ import { Contact } from "../components/Evergreen/Contact";
 import { Route } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 
-import NavBar from "../components/Evergreen/NavBar";
 import Footer from "../components/Evergreen/Footer";
 import Resume from '../components/Resume/Resume';
 import HomePage from '../components/HomePage/HomePage';
@@ -15,10 +14,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" id="page-top">
         <BrowserRouter>
-          <NavBar />
-          <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
+          
+          <div>
             <Route path="/jonathan-raxa" component={HomePage} />
             <Route path="/resume" exact component={Resume} />          
           <hr />

@@ -4,7 +4,7 @@ export const TechExperienceTwo = () => {
     return (
         <div>
             <div className="row pad2emTop">
-                <div className="col-md-12 text-center">
+                <div className="col-md-12 text-center custom-row-width-col">
                     <div className="mz-about-container">
                         <h2 className="resume-title">Front-End Web Content Manager & Developer</h2>
                         <p>LQ Digital, Emeryville&nbsp;|&nbsp;April 2016 – September 2016</p>

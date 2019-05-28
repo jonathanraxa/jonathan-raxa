@@ -29,11 +29,27 @@ i.fab{
 .paddLeft2em{
     padding-left: 2em;
 }
+.fullWidthCenter{
+  max-width:1280px;
+  margin: 0 auto;
+}
 
-@media (min-width: 767px) {
+.custom-row-width ul{
+  padding-left: .5em !important;
+}
+.custom-row-width-col{
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+@media (max-width: 767px) {
   .sds_hide-at-lg{
     display: none;
   }
+  .mz-about-container{
+    padding: 0 !important;
+  }
+  .row{margin:0 auto;}
+  .row-0-gutter{margin:0 auto;}
 }
 
 @media (min-width: 768px) {

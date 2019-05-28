@@ -10,7 +10,7 @@ class WorkExperience extends Component {
     render() {
 
         return (
-            <div className="row" id="experience">
+            <div className="row custom-row-width" id="experience">
                 <div className="col-lg-12 text-center">
                     <div className="section-title">
                         <h2>EXPERIENCE</h2>

@@ -6,6 +6,7 @@ import { TheMotto } from "./AboutMe/TheMotto";
 import { PortfolioHeading } from "./Portfolio/PortfolioHeading";
 import { Education } from "./AboutMe/Education";
 
+import NavBarHome from "./NavBarHome";
 import PanelOne from "./AboutMe/PanelOne";
 import PanelTwo from "./AboutMe/PanelTwo";
 import PanelThree from "./AboutMe/PanelThree";
@@ -48,7 +49,9 @@ class HomePage extends Component {
 
         // });
         return (
+           
             <div className="Homepage">
+                <NavBarHome />
                 <section id="aboutme">
                     <div className="container">
                         <div className="row">
@@ -233,9 +236,6 @@ class HomePage extends Component {
                     </div>
                 </section>
 
-
-
-
                 <hr />
 
                 <section id="education">
@@ -245,7 +245,8 @@ class HomePage extends Component {
                         </div>
                     </div>
                 </section>
-        
+                
+               
             </div>
         );
     }

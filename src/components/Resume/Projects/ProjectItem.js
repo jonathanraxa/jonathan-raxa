@@ -8,7 +8,7 @@ const ProjectItem = ({  title, description, website_title, website_link,
     contribution, languages, date, location, extra_resource, extra_resource_TF, image }) => {
 
     return (
-        <div className="ProjectItem" >
+        <div className="ProjectItem" id="projects">
   
             <div className="row no-gutters paddBottom1em">
                 <div className="col-md-2">{date}</div>

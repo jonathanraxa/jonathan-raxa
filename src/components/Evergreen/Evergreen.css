@@ -98,6 +98,14 @@
 .Footer a i:hover{
     color: #fec503 !important;
 }
+.NavBarHome{
+  max-width: 1920px;
+  margin:0 auto;
+}
+.Footer{
+  max-width: 1920px;
+  margin: 0 auto;
+}
 @media (max-width: 986px) {
   .sds_hide-at-lg-nav{
     display: block !important;
