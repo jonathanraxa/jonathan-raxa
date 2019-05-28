@@ -40,10 +40,9 @@ export default class NavBarHome extends Component {
   
             <RouteLink to={{ pathname: '/jonathan-raxa' }} onClick={(event) => { this.handleClick(); this.scrollToTop(); }} className="nav-item nav-link capitalizeLi">home</RouteLink>
             <RouteLink to={{ pathname: '/resume' }} onClick={this.handleClick} className='nav-item nav-link capitalizeLi'>resume</RouteLink>
-           
+            <ScrollLink to="aboutme" onClick={this.handleClick} activeClass="active" spy={true} smooth={true} offset={-100} duration={10} className="nav-item nav-link capitalizeLi">aboutme</ScrollLink>           
             <ScrollLink to="experience" onClick={this.handleClick} activeClass="active" spy={true} smooth={true} offset={-100} duration={10} className="nav-item nav-link capitalizeLi">experience</ScrollLink>
             <ScrollLink to="portfolio" onClick={this.handleClick} activeClass="active" spy={true} smooth={true} offset={-100} duration={10} className="nav-item nav-link capitalizeLi">portfolio</ScrollLink>
-            <ScrollLink to="aboutme" onClick={this.handleClick} activeClass="active" spy={true} smooth={true} offset={-100} duration={10} className="nav-item nav-link capitalizeLi">aboutme</ScrollLink>
             <ScrollLink to="education" onClick={this.handleClick} activeClass="active" spy={true} smooth={true} offset={-100} duration={10} className="nav-item nav-link capitalizeLi">education</ScrollLink>
             <ScrollLink to="contact" onClick={this.handleClick} activeClass="active" spy={true} smooth={true} offset={-100} duration={10} className="nav-item nav-link capitalizeLi">contact</ScrollLink>
           </div>
