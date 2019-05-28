@@ -1,0 +1,43 @@
+/* overrides */
+.modal-dialog{
+    max-width: 580px !important;
+}
+.modal-content{
+    padding: 1em !important;
+}
+.modal-works span{
+    color: #000;
+}
+figure.effect-bubba h2{
+    font-size: 1.5em !important;
+}
+.modal-works{
+    text-align: center;
+    margin: 0 auto;
+}
+figure.effect-bubba:hover img{
+    opacity: 0 !important;
+}
+figure.effect-bubba img{
+    opacity: 0.3 !important;
+}
+figure.effect-bubba:hover h2{
+    color:#fed136;
+}
+figure.effect-bubba p{
+    padding: 20px 3.5em !important;
+}
+/* custom */
+.mar04em{
+    margin-bottom:.4em;
+}
+.modalLang{
+    margin-bottom: .3em;
+}
+.dateLocationModal{
+    text-align: center;
+    font-weight: bold;
+}
+.modalTitle{
+    font-weight: bold;
+}

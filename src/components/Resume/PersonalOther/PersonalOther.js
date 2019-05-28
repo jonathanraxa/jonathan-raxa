@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../js/Portfolio';
+import '../../Assets/Assets';
 
 const Personal = () => {
     return (

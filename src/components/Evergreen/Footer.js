@@ -1,8 +1,7 @@
 import React from "react";
-import { PERSONAL_LINKS } from "../../js/Links";
+import { PERSONAL_LINKS } from "../Assets/Assets";
 
 export default function Footer({ dark, id }) {
- 
     return (
         <div className={"Footer section" + (dark ? " section-dark" : "")}>
             <div className="section-content" id={id}>

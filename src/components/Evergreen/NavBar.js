@@ -22,7 +22,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <nav className="NavBar sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="/"><Link to="/">Jonathan Raxa</Link></a>
+        <a className="navbar-brand" href="/"><Link to={{ pathname: '/jonathan-raxa/' }}>Jonathan Raxa</Link></a>
         
         <button className="navbar-toggler" onClick={this.handleClick} type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -30,20 +30,16 @@ export default class NavBar extends Component {
         
         <div className={this.state.isToggleOn ? 'collapse navbar-collapse show' : 'collapse navbar-collapse'}
          id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            {/* <Link to={{
-              pathname: '/new-post',
-              hash: '#submit',
-              search: '?quick-submit=true'
-            }}>New Post</Link> */}
-
-            <Link to={{ pathname: '/' }} onClick={this.handleClick} className="nav-item nav-link capitalizeLi">home</Link>
+          <div className="navbar-nav ml-auto justify-content-end">
+  
+            <Link to={{ pathname: '/jonathan-raxa/' }} onClick={this.handleClick} className="nav-item nav-link capitalizeLi">home</Link>
             <Link to={{ pathname: '/resume' }} onClick={this.handleClick} className='nav-item nav-link capitalizeLi'>resume</Link>
-            <a onClick={this.handleClick} className='nav-item nav-link capitalizeLi' href="/#experience">experience</a>
-            <a onClick={this.handleClick} className='nav-item nav-link capitalizeLi' href="/#portfolio">portfolio</a>
-            <a onClick={this.handleClick} className='nav-item nav-link capitalizeLi' href="/#aboutme">about me</a>
-            <a onClick={this.handleClick} className='nav-item nav-link capitalizeLi' href="/#education">education</a>
-            <a onClick={this.handleClick} className='nav-item nav-link capitalizeLi' href="/#contact">contact</a>
+            <Link to={{ pathname: '/jonathan-raxa/#experience' }} onClick={this.handleClick} className='nav-item nav-link capitalizeLi'>experience</Link>
+            <Link to={{ pathname: '/jonathan-raxa/#portfolio' }} onClick={this.handleClick} className='nav-item nav-link capitalizeLi'>portfolio</Link>
+            <Link to={{ pathname: '/jonathan-raxa/#aboutme' }} onClick={this.handleClick} className='nav-item nav-link capitalizeLi'>aboutme</Link>
+            <Link to={{ pathname: '/jonathan-raxa/#education' }} onClick={this.handleClick} className='nav-item nav-link capitalizeLi'>education</Link>
+            <Link to={{ pathname: '/jonathan-raxa/#contact' }} onClick={this.handleClick} className='nav-item nav-link capitalizeLi'>contact</Link>
+
           </div>
         </div>
      

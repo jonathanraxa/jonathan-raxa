@@ -19,7 +19,7 @@ class App extends Component {
         <BrowserRouter>
           <NavBar />
           <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
-            <Route path="/" exact component={HomePage} />
+            <Route path="/jonathan-raxa/" exact component={HomePage} />
             <Route path="/resume" exact component={Resume} />          
           <hr />
           <Contact />

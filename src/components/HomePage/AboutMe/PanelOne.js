@@ -1,6 +1,5 @@
 import React from "react";
-import { PERSONAL_LINKS } from '../../../js/Links';
-import { IMAGES } from '../../../js/Images';
+import { PERSONAL_LINKS, IMAGES } from '../../Assets/Assets';
 
 const PanelOne = () => {
 

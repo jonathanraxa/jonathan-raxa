@@ -1,6 +1,6 @@
 import React from "react";
-import { INTROVERTED_INTELLECT } from '../../../js/Links';
-import { IMAGES } from '../../../js/Images';
+import { INTROVERTED_INTELLECT } from '../../Assets/Assets';
+import { IMAGES } from '../../Assets/Assets';
 
 
 const PanelTwo = () => {

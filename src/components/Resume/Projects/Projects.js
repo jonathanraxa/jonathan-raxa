@@ -1,6 +1,15 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import { VIDEDU, _4UIMG, PHOTOWORLD, SFPARK, RUBYSCRIPT, PERSONALWEBSITE } from '../../../js/Portfolio';
+import {
+    VIDEDU,
+    _4UIMG,
+    PHOTOWORLD,
+    SFPARK,
+    RUBYSCRIPT,
+    PERSONALWEBSITE,
+    GOOGLESCRIPT,
+    RENTALS
+} from '../../Assets/Assets';
 
 const Projects = () => {
     return (
@@ -25,6 +34,8 @@ const Projects = () => {
                 date={VIDEDU.date}
                 extra_resource={VIDEDU.extra_resource}
                 location={VIDEDU.location}
+                extra_resource_TF={VIDEDU.extra_resource_TF}
+                image={VIDEDU.image}
             />        
             <ProjectItem
                 title={_4UIMG.title}
@@ -40,6 +51,42 @@ const Projects = () => {
                 date={_4UIMG.date}
                 extra_resource={_4UIMG.extra_resource}
                 location={_4UIMG.location}
+                extra_resource_TF={_4UIMG.extra_resource_TF}
+                image={_4UIMG.image}
+            />
+            <ProjectItem 
+                title={RENTALS.title}
+                description={RENTALS.description}
+                website_title={RENTALS.website_title}
+                website_link={RENTALS.website_link}
+                source_code_title={RENTALS.source_code_title}
+                source_code_link={RENTALS.source_code_link}
+                documentation_title={RENTALS.documentation_title}
+                documentation_link={RENTALS.documentation_link}
+                contribution={RENTALS.contribution}
+                languages={RENTALS.languages}
+                date={RENTALS.date}
+                extra_resource={RENTALS.extra_resource}
+                location={RENTALS.location}
+                extra_resource_TF={RENTALS.extra_resource_TF}
+                image={RENTALS.image}
+            />
+            <ProjectItem
+                title={GOOGLESCRIPT.title}
+                description={GOOGLESCRIPT.description}
+                website_title={GOOGLESCRIPT.website_title}
+                website_link={GOOGLESCRIPT.website_link}
+                source_code_title={GOOGLESCRIPT.source_code_title}
+                source_code_link={GOOGLESCRIPT.source_code_link}
+                documentation_title={GOOGLESCRIPT.documentation_title}
+                documentation_link={GOOGLESCRIPT.documentation_link}
+                contribution={GOOGLESCRIPT.contribution}
+                languages={GOOGLESCRIPT.languages}
+                date={GOOGLESCRIPT.date}
+                extra_resource={GOOGLESCRIPT.extra_resource}
+                location={GOOGLESCRIPT.location}
+                extra_resource_TF={GOOGLESCRIPT.extra_resource_TF}
+                image={GOOGLESCRIPT.image}
             />
             <ProjectItem
                 title={PHOTOWORLD.title}
@@ -55,6 +102,8 @@ const Projects = () => {
                 date={PHOTOWORLD.date}
                 extra_resource={PHOTOWORLD.extra_resource}
                 location={PHOTOWORLD.location}
+                extra_resource_TF={PHOTOWORLD.extra_resource_TF}
+                image={PHOTOWORLD.image}
             />
             <ProjectItem
                 title={SFPARK.title}
@@ -70,6 +119,8 @@ const Projects = () => {
                 date={SFPARK.date}
                 extra_resource={SFPARK.extra_resource}
                 location={SFPARK.location}
+                extra_resource_TF={SFPARK.extra_resource_TF}
+                image={SFPARK.image}
             />
             <ProjectItem
                 title={RUBYSCRIPT.title}
@@ -85,6 +136,8 @@ const Projects = () => {
                 date={RUBYSCRIPT.date}
                 extra_resource={RUBYSCRIPT.extra_resource}
                 location={RUBYSCRIPT.location}
+                extra_resource_TF={RUBYSCRIPT.extra_resource_TF}
+                image={RUBYSCRIPT.image}
             />
             <ProjectItem
                 title={PERSONALWEBSITE.title}
@@ -100,6 +153,8 @@ const Projects = () => {
                 date={PERSONALWEBSITE.date}
                 extra_resource={PERSONALWEBSITE.extra_resource}
                 location={PERSONALWEBSITE.location}
+                extra_resource_TF={PERSONALWEBSITE.extra_resource_TF}
+                image={PERSONALWEBSITE.image}
             />
         </div>
     );

@@ -1,5 +1,54 @@
-// TODO: change to JSON object instead 
+// personal photos for extra curriculars
+import profile_photo from '../../img/me/jonRaxa_edited.jpg';
+import introverted_intellect_profile from '../../img/me/logo_with_me_v3.jpg';
+import introverted_intellect_logo from '../../img/logo.png';
 
+// portfolio photos
+import videdu from '../../img/projects/videdu.jpg';
+import photoworld from '../../img/projects/photoworld.jpg';
+import sfpark from '../../img/projects/sfpark.jpg';
+import pending from '../../img/projects/pending.jpg';
+import script from '../../img/projects/script.jpg';
+import mywebsitev2 from '../../img/projects/mywebsitev2.jpg';
+import rentals from '../../img/projects/rentals.jpg';
+import _4uimg from '../../img/projects/_4uimg.jpg';
+import sftoastbusters from '../../img/projects/sftoastbusters.jpg';
+import googlescript from '../../img/projects/googlescript.jpg';
+
+
+export const IMAGES = {
+    profile_photo: profile_photo,
+    introverted_intellect_profile: introverted_intellect_profile,
+    introverted_intellect_logo: introverted_intellect_logo,
+    videdu: videdu,
+    photoworld: photoworld,
+    sfpark: sfpark,
+    pending: pending,
+    script: script,
+    mywebsitev2: mywebsitev2,
+    rentals: rentals,
+    sftoastbusters: sftoastbusters,
+    pending: pending,
+    googlescript: googlescript
+};
+
+// links
+export const INTROVERTED_INTELLECT = {
+    blog: "https://www.introvertedintellect.com/",
+    itunes: "https://itunes.apple.com/us/podcast/introverted-intellect/",
+    googleplay: "https://play.google.com/music/m/Ilnnraw74lyasmqzpwlarz7g74y?t=Introverted_Intellect",
+    stitcher: "https://www.stitcher.com/s?fid=226748&refid=stpr"
+};
+
+export const PERSONAL_LINKS = {
+    linkedin: "https://www.linkedin.com/in/jonathanraxa",
+    facebook: "https://www.facebook.com/jraxa",
+    googleplus: "https://plus.google.com/+JonathanRaxa/posts",
+    github: "https://github.com/jonathanraxa",
+    twitter: "https://twitter.com/jonathanraxa"
+};
+
+// portfolio objects
 export const VIDEDU = {
     title: "VidEdu",
     description: "YouTube play/pause note-taking interaction.",
@@ -12,13 +61,15 @@ export const VIDEDU = {
     contribution: "Project/Team Lead. Main Application Designer. Front-end. Back-end.",
     languages: ["Ruby", "Ruby on Rails", "JavaScript/JQuery", "HTML/CSS"],
     date: "2016",
-    extra_resource: "<iframe src='https://player.vimeo.com/video/193198836' width={640} height={360} allowFullScreen style={{ width: '100%' }} />",
-    location:"SFSU"
+    extra_resource: "https://player.vimeo.com/video/193198836",
+    location: "SFSU",
+    extra_resource_TF: true,
+    image: videdu
 }
 
 export const _4UIMG = {
     title: "4UImg",
-    description: "4UImg” provides CII and its Artists an online storefront for reaching customers more efficiently  and expanding business.",
+    description: "4UImg provides CII and its Artists an online storefront for reaching customers more efficiently  and expanding business.",
     website_title: "www.sfsuswe.com/s16g04/",
     website_link: "www.sfsuswe.com/s16g04/ (Unfortunately the server is down so the website is NOT live)",
     source_code_title: "4Uimg Source Code",
@@ -29,7 +80,9 @@ export const _4UIMG = {
     languages: ["PHP", "MySQL", "JavaScript/JQuery", "HTML/CSS"],
     date: "2013",
     extra_resource: "",
-    location:"SFSU"
+    location: "SFSU",
+    extra_resource_TF: false,
+    image: _4uimg
 }
 
 export const PHOTOWORLD = {
@@ -45,9 +98,10 @@ export const PHOTOWORLD = {
     languages: ["JavaScript/JQuery", "HTML/CSS", "Google Maps API", "Flicker API"],
     date: "2013",
     extra_resource: "",
-    location:"SFSU"
+    location: "SFSU",
+    extra_resource_TF: false,
+    image: photoworld
 }
-
 
 export const SFPARK = {
     title: "SF Park",
@@ -62,16 +116,16 @@ export const SFPARK = {
     languages: ["Android", "Java", "Google Maps API", "Park API"],
     date: "2013",
     extra_resource: "",
-    location:"SFSU"
+    location: "SFSU",
+    extra_resource_TF: false,
+    image: sfpark
 }
-
-
 
 export const RUBYSCRIPT = {
     title: "LQ Digital Ruby Script",
     description: "Three Ruby scripts used for specfic HTML pages to find and replace certain values pertained only to the website.",
-    website_title: "N/A",
-    website_link: "N/A",
+    website_title: "",
+    website_link: "",
     source_code_title: "LQ Digital Ruby Script Source Code",
     source_code_link: "https://github.com/jonathanraxa/DirectoryTextReplacer",
     documentation_title: "",
@@ -80,9 +134,10 @@ export const RUBYSCRIPT = {
     languages: ["Ruby"],
     date: "2013",
     extra_resource: "",
-    location:"LQ Digial"
+    location: "LQ Digial",
+    extra_resource_TF: false,
+    image: script
 }
-
 
 export const PERSONALWEBSITE = {
     title: "Personal React-based Website",
@@ -97,6 +152,45 @@ export const PERSONALWEBSITE = {
     languages: ["ReactJS", "JavaScript", "HTML/CSS"],
     date: "2019",
     extra_resource: "",
-    location:"San Francisco, CA"
+    location: "San Francisco, CA",
+    extra_resource_TF: false,
+    image: mywebsitev2
 }
+
+export const GOOGLESCRIPT = {
+    title: "Promotional Templates",
+    description: "Using Google Scripts to create HTML templates",
+    website_title: "Gap Inc. Europe",
+    website_link: "www.gap.eu",
+    source_code_title: "",
+    source_code_link: "",
+    documentation_title: "",
+    documentation_link: "",
+    contribution: "All",
+    languages: ["Google Scripts", "HTML/CSS"],
+    date: "2019",
+    extra_resource: "",
+    location: "Gap Inc. | San Francisco, CA",
+    extra_resource_TF: false,
+    image: googlescript
+}
+
+export const RENTALS = {
+    title: "SF Rent Calculator",
+    description: "Rent calculator based on API data",
+    website_title: "",
+    website_link: "",
+    source_code_title: "Rentals Calculator",
+    source_code_link: "https://github.com/jonathanraxa/RentalsRecruitment",
+    documentation_title: "",
+    documentation_link: "",
+    contribution: "All",
+    languages: ["JavaScript/JQuery", "HTML/CSS", "NodeJS"],
+    date: "2016",
+    extra_resource: "",
+    location: "San Francisco, CA",
+    extra_resource_TF: false,
+    image: rentals
+}
+
 
