@@ -11,7 +11,7 @@ import pending from '../../img/projects/pending.jpg';
 import script from '../../img/projects/script.jpg';
 import mywebsitev2 from '../../img/projects/mywebsitev2.jpg';
 import rentals from '../../img/projects/rentals.jpg';
-import _4uimg from '../../img/projects/_4uimg.jpg';
+import _4uimg from '../../img/projects/fouruimg.jpg';
 import sftoastbusters from '../../img/projects/sftoastbusters.jpg';
 import googlescript from '../../img/projects/googlescript.jpg';
 

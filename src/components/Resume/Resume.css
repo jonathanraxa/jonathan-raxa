@@ -24,7 +24,9 @@
 .noMarginBottom{
     margin-bottom: 0;
 }
-
+.Resume{
+  margin-top:1em;
+}
 /* hover state over projects */
 .Collapsible__trigger {
   position: relative;

@@ -84,7 +84,7 @@ class HomePage extends Component {
                 {/* porfolio / projects */}
                 <PortfolioHeading />
                 
-                <section id="portfolio">
+                <section>
                     <div className="container">
                         <div className="row row-0-gutter">
                         <Portfolio
