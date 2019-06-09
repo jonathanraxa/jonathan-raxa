@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { AboutMe } from "./AboutMe/AboutMe";
-import { VimeoVideo } from "./AboutMe/VimeoVideo";
 import { TheMotto } from "./AboutMe/TheMotto";
 import { PortfolioHeading } from "./Portfolio/PortfolioHeading";
 import { Education } from "./AboutMe/Education";
@@ -27,27 +26,8 @@ import axios from 'axios';
 
 class HomePage extends Component {
     
-    // state = {
-    //     projects: []
-    // }
-
-    // componentDidMount() {
-    //     axios.get('https://api.github.com/users/jonathanraxa/repos')
-    //         .then(response => {
-    //             console.log(response);
-    //             this.setState({ projects: response.data });
-    //             console.log(projects);
-    //         })
-    //         .catch(error => {
-    //             console.log(error);
-    //         });
-
-    // }
-
     render() {
-        // const this.projects = this.state.projects.map(projects => {
-
-        // });
+      
         return (
            
             <div className="Homepage">

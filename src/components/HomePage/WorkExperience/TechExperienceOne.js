@@ -16,14 +16,6 @@ export const TechExperienceOne = () => {
                             <li>Developed Google scripts to simplify workflow resulting in a 50% increase in productivity</li>
                             <li>Consulting with brand partners and coding HTML for optimal site performance and customer experience</li>
                         </ul>
-                        {/* <Collapsible trigger="See more">
-                            <div>
-                                <div>Main Duty</div>
-                                <div>Secondary</div>
-                                <div>Notable Items:</div>
-                                <div>What I've Learned:</div>
-                            </div>
-                        </Collapsible> */}
                     </div>
                 </div>
             </div>
