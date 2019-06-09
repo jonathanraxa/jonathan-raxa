@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/jonathan-raxa/static/css/main.d369f3e2.chunk.css",
+    "main.js": "/jonathan-raxa/static/js/main.1d964c6e.chunk.js",
+    "main.js.map": "/jonathan-raxa/static/js/main.1d964c6e.chunk.js.map",
+    "runtime~main.js": "/jonathan-raxa/static/js/runtime~main.2af9d409.js",
+    "runtime~main.js.map": "/jonathan-raxa/static/js/runtime~main.2af9d409.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/jonathan-raxa/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.61718b84.chunk.js": "/jonathan-raxa/static/js/2.61718b84.chunk.js",
+    "static/js/2.61718b84.chunk.js.map": "/jonathan-raxa/static/js/2.61718b84.chunk.js.map",
+    "index.html": "/jonathan-raxa/index.html",
+    "precache-manifest.803dbe7b5c2a2a464c9253380ae282e3.js": "/jonathan-raxa/precache-manifest.803dbe7b5c2a2a464c9253380ae282e3.js",
+    "service-worker.js": "/jonathan-raxa/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/jonathan-raxa/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.d369f3e2.chunk.css.map": "/jonathan-raxa/static/css/main.d369f3e2.chunk.css.map",
+    "static/media/fouruimg.jpg": "/jonathan-raxa/static/media/fouruimg.b6a74f22.jpg",
+    "static/media/googlescript.jpg": "/jonathan-raxa/static/media/googlescript.1cd33b75.jpg",
+    "static/media/jonRaxa_edited.jpg": "/jonathan-raxa/static/media/jonRaxa_edited.a216a904.jpg",
+    "static/media/logo.png": "/jonathan-raxa/static/media/logo.0785f2e7.png",
+    "static/media/logo_with_me_v3.jpg": "/jonathan-raxa/static/media/logo_with_me_v3.d7602c78.jpg",
+    "static/media/mywebsitev2.jpg": "/jonathan-raxa/static/media/mywebsitev2.22d58cbd.jpg",
+    "static/media/pending.jpg": "/jonathan-raxa/static/media/pending.88051121.jpg",
+    "static/media/photoworld.jpg": "/jonathan-raxa/static/media/photoworld.f68fa5cc.jpg",
+    "static/media/rentals.jpg": "/jonathan-raxa/static/media/rentals.4cef5c05.jpg",
+    "static/media/script.jpg": "/jonathan-raxa/static/media/script.497ca09a.jpg",
+    "static/media/sfpark.jpg": "/jonathan-raxa/static/media/sfpark.33507499.jpg",
+    "static/media/sftoastbusters.jpg": "/jonathan-raxa/static/media/sftoastbusters.3c9b2e94.jpg",
+    "static/media/videdu.jpg": "/jonathan-raxa/static/media/videdu.e9f67d5c.jpg"
+  }
+}
