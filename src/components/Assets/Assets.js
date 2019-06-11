@@ -14,6 +14,7 @@ import rentals from '../../img/projects/rentals.jpg';
 import _4uimg from '../../img/projects/fouruimg.jpg';
 import sftoastbusters from '../../img/projects/sftoastbusters.jpg';
 import googlescript from '../../img/projects/googlescript.jpg';
+import templatecreator from '../../img/projects/templatecreator.jpg';
 
 
 export const IMAGES = {
@@ -65,6 +66,25 @@ export const VIDEDU = {
     location: "SFSU",
     extra_resource_TF: true,
     image: videdu
+}
+
+
+export const TEMPLATE_CREATOR = {
+    title: "SFCC Template Creator",
+    description: "html/css generator for sfcc template code",
+    website_title: "SFCC Template Creator (hosted on github pages)",
+    website_link: "https://jonathanraxa.github.io/template_creator/",
+    source_code_title: "Template Creator Source Code",
+    source_code_link: "https://github.com/jonathanraxa/template_creator",
+    documentation_title: "",
+    documentation_link: "",
+    contribution: "Everything",
+    languages: ["REACT JS", "JavaScript/JQuery (ES6/Babel)", "HTML/CSS"],
+    date: "May 2019 - June 2019",
+    extra_resource: "",
+    location: "Gap Inc, San Francisco",
+    extra_resource_TF: false,
+    image: templatecreator
 }
 
 export const _4UIMG = {

@@ -19,7 +19,8 @@ import { VIDEDU,
         RUBYSCRIPT,
         PERSONALWEBSITE,
         GOOGLESCRIPT,
-        RENTALS} from '../Assets/Assets';
+        RENTALS,
+        TEMPLATE_CREATOR} from '../Assets/Assets';
 
 import axios from 'axios';
 
@@ -88,41 +89,46 @@ class HomePage extends Component {
                             image = {VIDEDU.image}
                         />  
                             <Portfolio
-                                title={_4UIMG.title}
-                                description={_4UIMG.description}
-                                website_title={_4UIMG.website_title}
-                                website_link={_4UIMG.website_link}
-                                source_code_title={_4UIMG.source_code_title}
-                                source_code_link={_4UIMG.source_code_link}
-                                documentation_title={_4UIMG.documentation_title}
-                                documentation_link={_4UIMG.documentation_link}
-                                contribution={_4UIMG.contribution}
-                                languages={_4UIMG.languages}
-                                date={_4UIMG.date}
-                                extra_resource={_4UIMG.extra_resource}
-                                location={_4UIMG.location}
-                                extra_resource_TF={_4UIMG.extra_resource_TF}
-                                image={_4UIMG.image}
-                            /> 
+                                title={TEMPLATE_CREATOR.title}
+                                description={TEMPLATE_CREATOR.description}
+                                website_title={TEMPLATE_CREATOR.website_title}
+                                website_link={TEMPLATE_CREATOR.website_link}
+                                source_code_title={TEMPLATE_CREATOR.source_code_title}
+                                source_code_link={TEMPLATE_CREATOR.source_code_link}
+                                documentation_title={TEMPLATE_CREATOR.documentation_title}
+                                documentation_link={TEMPLATE_CREATOR.documentation_link}
+                                contribution={TEMPLATE_CREATOR.contribution}
+                                languages={TEMPLATE_CREATOR.languages}
+                                date={TEMPLATE_CREATOR.date}
+                                extra_resource={TEMPLATE_CREATOR.extra_resource}
+                                location={TEMPLATE_CREATOR.location}
+                                extra_resource_TF={TEMPLATE_CREATOR.extra_resource_TF}
+                                image={TEMPLATE_CREATOR.image}
+                            />  
+
+                          
+                    
                         </div>
                         <div className="row row-0-gutter">
+
                             <Portfolio
-                                title={RENTALS.title}
-                                description={RENTALS.description}
-                                website_title={RENTALS.website_title}
-                                website_link={RENTALS.website_link}
-                                source_code_title={RENTALS.source_code_title}
-                                source_code_link={RENTALS.source_code_link}
-                                documentation_title={RENTALS.documentation_title}
-                                documentation_link={RENTALS.documentation_link}
-                                contribution={RENTALS.contribution}
-                                languages={RENTALS.languages}
-                                date={RENTALS.date}
-                                extra_resource={RENTALS.extra_resource}
-                                location={RENTALS.location}
-                                extra_resource_TF={RENTALS.extra_resource_TF}
-                                image={RENTALS.image}
+                                title={PERSONALWEBSITE.title}
+                                description={PERSONALWEBSITE.description}
+                                website_title={PERSONALWEBSITE.website_title}
+                                website_link={PERSONALWEBSITE.website_link}
+                                source_code_title={PERSONALWEBSITE.source_code_title}
+                                source_code_link={PERSONALWEBSITE.source_code_link}
+                                documentation_title={PERSONALWEBSITE.documentation_title}
+                                documentation_link={PERSONALWEBSITE.documentation_link}
+                                contribution={PERSONALWEBSITE.contribution}
+                                languages={PERSONALWEBSITE.languages}
+                                date={PERSONALWEBSITE.date}
+                                extra_resource={PERSONALWEBSITE.extra_resource}
+                                location={PERSONALWEBSITE.location}
+                                extra_resource_TF={PERSONALWEBSITE.extra_resource_TF}
+                                image={PERSONALWEBSITE.image}
                             />
+                
                             <Portfolio
                                 title={GOOGLESCRIPT.title}
                                 description={GOOGLESCRIPT.description}
@@ -195,22 +201,44 @@ class HomePage extends Component {
                                 extra_resource_TF={RUBYSCRIPT.extra_resource_TF}
                                 image={RUBYSCRIPT.image}
                             />
+                   
                             <Portfolio
-                                title={PERSONALWEBSITE.title}
-                                description={PERSONALWEBSITE.description}
-                                website_title={PERSONALWEBSITE.website_title}
-                                website_link={PERSONALWEBSITE.website_link}
-                                source_code_title={PERSONALWEBSITE.source_code_title}
-                                source_code_link={PERSONALWEBSITE.source_code_link}
-                                documentation_title={PERSONALWEBSITE.documentation_title}
-                                documentation_link={PERSONALWEBSITE.documentation_link}
-                                contribution={PERSONALWEBSITE.contribution}
-                                languages={PERSONALWEBSITE.languages}
-                                date={PERSONALWEBSITE.date}
-                                extra_resource={PERSONALWEBSITE.extra_resource}
-                                location={PERSONALWEBSITE.location}
-                                extra_resource_TF={PERSONALWEBSITE.extra_resource_TF}
-                                image={PERSONALWEBSITE.image}
+                                title={_4UIMG.title}
+                                description={_4UIMG.description}
+                                website_title={_4UIMG.website_title}
+                                website_link={_4UIMG.website_link}
+                                source_code_title={_4UIMG.source_code_title}
+                                source_code_link={_4UIMG.source_code_link}
+                                documentation_title={_4UIMG.documentation_title}
+                                documentation_link={_4UIMG.documentation_link}
+                                contribution={_4UIMG.contribution}
+                                languages={_4UIMG.languages}
+                                date={_4UIMG.date}
+                                extra_resource={_4UIMG.extra_resource}
+                                location={_4UIMG.location}
+                                extra_resource_TF={_4UIMG.extra_resource_TF}
+                                image={_4UIMG.image}
+                            /> 
+                        </div>
+
+
+                        <div className="row row-0-gutter">
+                            <Portfolio
+                                title={RENTALS.title}
+                                description={RENTALS.description}
+                                website_title={RENTALS.website_title}
+                                website_link={RENTALS.website_link}
+                                source_code_title={RENTALS.source_code_title}
+                                source_code_link={RENTALS.source_code_link}
+                                documentation_title={RENTALS.documentation_title}
+                                documentation_link={RENTALS.documentation_link}
+                                contribution={RENTALS.contribution}
+                                languages={RENTALS.languages}
+                                date={RENTALS.date}
+                                extra_resource={RENTALS.extra_resource}
+                                location={RENTALS.location}
+                                extra_resource_TF={RENTALS.extra_resource_TF}
+                                image={RENTALS.image}
                             />
                         </div>
                     </div>
