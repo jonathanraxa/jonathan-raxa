@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0dd42fe169bfcb8c063c7067bc41e1cb",
+    "revision": "ca8ee2a5d74ead6b06e2bb8cc03e48de",
     "url": "/jonathan-raxa/index.html"
   },
   {
-    "revision": "4dbeba162a97faeb3a32",
+    "revision": "accdc017ee245cb6a8e3",
     "url": "/jonathan-raxa/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "980391297d9aa3c795f2",
+    "revision": "d45dead045cec72db3b8",
     "url": "/jonathan-raxa/static/css/main.d369f3e2.chunk.css"
   },
   {
-    "revision": "4dbeba162a97faeb3a32",
-    "url": "/jonathan-raxa/static/js/2.61718b84.chunk.js"
+    "revision": "accdc017ee245cb6a8e3",
+    "url": "/jonathan-raxa/static/js/2.7ae2f3b9.chunk.js"
   },
   {
-    "revision": "980391297d9aa3c795f2",
-    "url": "/jonathan-raxa/static/js/main.1d964c6e.chunk.js"
+    "revision": "d45dead045cec72db3b8",
+    "url": "/jonathan-raxa/static/js/main.58098d36.chunk.js"
   },
   {
     "revision": "126b2fa406b91de4efb7",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3c9b2e941b1547908e09a83949e91cea",
     "url": "/jonathan-raxa/static/media/sftoastbusters.3c9b2e94.jpg"
+  },
+  {
+    "revision": "203da883d5eacba5e2714bd4c6c1bb4f",
+    "url": "/jonathan-raxa/static/media/templatecreator.203da883.jpg"
   },
   {
     "revision": "e9f67d5c0e43d7c176dfa87bb81a5be0",
