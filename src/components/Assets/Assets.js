@@ -82,7 +82,7 @@ export const TEMPLATE_CREATOR = {
     languages: ["REACT JS", "JavaScript/JQuery (ES6/Babel)", "HTML/CSS"],
     date: "May 2019 - June 2019",
     extra_resource: "",
-    location: "Gap Inc, San Francisco",
+    location: "Gap Inc. | San Francisco, CA",
     extra_resource_TF: false,
     image: templatecreator
 }

@@ -8,7 +8,8 @@ import {
     RUBYSCRIPT,
     PERSONALWEBSITE,
     GOOGLESCRIPT,
-    RENTALS
+    RENTALS,
+    TEMPLATE_CREATOR
 } from '../../Assets/Assets';
 
 const Projects = () => {
@@ -37,6 +38,23 @@ const Projects = () => {
                 extra_resource_TF={VIDEDU.extra_resource_TF}
                 image={VIDEDU.image}
             />        
+            <ProjectItem
+                title={TEMPLATE_CREATOR.title}
+                description={TEMPLATE_CREATOR.description}
+                website_title={TEMPLATE_CREATOR.website_title}
+                website_link={TEMPLATE_CREATOR.website_link}
+                source_code_title={TEMPLATE_CREATOR.source_code_title}
+                source_code_link={TEMPLATE_CREATOR.source_code_link}
+                documentation_title={TEMPLATE_CREATOR.documentation_title}
+                documentation_link={TEMPLATE_CREATOR.documentation_link}
+                contribution={TEMPLATE_CREATOR.contribution}
+                languages={TEMPLATE_CREATOR.languages}
+                date={TEMPLATE_CREATOR.date}
+                extra_resource={TEMPLATE_CREATOR.extra_resource}
+                location={TEMPLATE_CREATOR.location}
+                extra_resource_TF={TEMPLATE_CREATOR.extra_resource_TF}
+                image={TEMPLATE_CREATOR.image}
+            />     
             <ProjectItem
                 title={_4UIMG.title}
                 description={_4UIMG.description}
