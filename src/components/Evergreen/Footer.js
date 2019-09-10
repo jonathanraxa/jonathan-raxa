@@ -8,7 +8,7 @@ export default function Footer({ dark, id }) {
                 <footer style={{ backgroundColor: 'inherit' }}>
                     <div className="container text-center">
                     </div>
-                    <div class="row center-margin">
+                    <div className="row center-margin">
                         <div className="col icon-col">
                             <a className="" href={PERSONAL_LINKS.github} target="_blank"><i className="fab fa-github fa-2x" /></a>
                         </div>

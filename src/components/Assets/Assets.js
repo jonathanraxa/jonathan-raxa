@@ -15,6 +15,7 @@ import _4uimg from '../../img/projects/fouruimg.jpg';
 import sftoastbusters from '../../img/projects/sftoastbusters.jpg';
 import googlescript from '../../img/projects/googlescript.jpg';
 import templatecreator from '../../img/projects/templatecreator.jpg';
+import promodrawer from '../../img/projects/promodrawer.jpg';
 
 
 export const IMAGES = {
@@ -30,7 +31,8 @@ export const IMAGES = {
     rentals: rentals,
     sftoastbusters: sftoastbusters,
     pending: pending,
-    googlescript: googlescript
+    googlescript: googlescript,
+    promodrawer: promodrawer
 };
 
 // links
@@ -213,4 +215,21 @@ export const RENTALS = {
     image: rentals
 }
 
+export const PROMODRAWER = {
+    title: "SFCC Promo Drawer",
+    description: "React JS based web application for promo drawer generatinon",
+    website_title: "SFCC Promo Drawer [heroku app]",
+    website_link: "http://sfccpromodrawer.herokuapp.com",
+    source_code_title: "Promo Drawer",
+    source_code_link: "https://github.com/jonathanraxa/promodrawer",
+    documentation_title: "",
+    documentation_link: "",
+    contribution: "All",
+    languages: ["React JS", "JavaScript/JQuery", "HTML/CSS"],
+    date: "Aug 2019",
+    extra_resource: "",
+    location: "San Francisco, CA | Gap Inc.",
+    extra_resource_TF: false,
+    image: promodrawer
+}
 

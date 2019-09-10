@@ -9,7 +9,8 @@ import {
     PERSONALWEBSITE,
     GOOGLESCRIPT,
     RENTALS,
-    TEMPLATE_CREATOR
+    TEMPLATE_CREATOR,
+    PROMODRAWER
 } from '../../Assets/Assets';
 
 const Projects = () => {
@@ -21,6 +22,23 @@ const Projects = () => {
                 </div>
             <div className="col-md-8"><span><i>click a project name to see more</i></span></div>
             </div>
+            <ProjectItem
+                title={PROMODRAWER.title}
+                description={PROMODRAWER.description}
+                website_title={PROMODRAWER.website_title}
+                website_link={PROMODRAWER.website_link}
+                source_code_title={PROMODRAWER.source_code_title}
+                source_code_link={PROMODRAWER.source_code_link}
+                documentation_title={PROMODRAWER.documentation_title}
+                documentation_link={PROMODRAWER.documentation_link}
+                contribution={PROMODRAWER.contribution}
+                languages={PROMODRAWER.languages}
+                date={PROMODRAWER.date}
+                extra_resource={PROMODRAWER.extra_resource}
+                location={PROMODRAWER.location}
+                extra_resource_TF={PROMODRAWER.extra_resource_TF}
+                image={PROMODRAWER.image}
+            />       
             <ProjectItem 
                 title={VIDEDU.title}
                 description={VIDEDU.description}

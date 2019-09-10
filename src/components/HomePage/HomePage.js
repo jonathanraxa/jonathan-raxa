@@ -20,9 +20,9 @@ import { VIDEDU,
         PERSONALWEBSITE,
         GOOGLESCRIPT,
         RENTALS,
-        TEMPLATE_CREATOR} from '../Assets/Assets';
+        TEMPLATE_CREATOR,
+        PROMODRAWER} from '../Assets/Assets';
 
-import axios from 'axios';
 
 
 class HomePage extends Component {
@@ -71,23 +71,46 @@ class HomePage extends Component {
                 <section>
                     <div className="container">
                         <div className="row row-0-gutter">
-                        <Portfolio
-                            title={VIDEDU.title}
-                            description={VIDEDU.description}
-                            website_title={VIDEDU.website_title}
-                            website_link={VIDEDU.website_link}
-                            source_code_title={VIDEDU.source_code_title}
-                            source_code_link={VIDEDU.source_code_link}
-                            documentation_title={VIDEDU.documentation_title}
-                            documentation_link={VIDEDU.documentation_link}
-                            contribution={VIDEDU.contribution}
-                            languages={VIDEDU.languages}
-                            date={VIDEDU.date}
-                            extra_resource={VIDEDU.extra_resource}
-                            location={VIDEDU.location}
-                            extra_resource_TF = {VIDEDU.extra_resource_TF}
-                            image = {VIDEDU.image}
-                        />  
+
+                            <Portfolio
+                                title={PROMODRAWER.title}
+                                description={PROMODRAWER.description}
+                                website_title={PROMODRAWER.website_title}
+                                website_link={PROMODRAWER.website_link}
+                                source_code_title={PROMODRAWER.source_code_title}
+                                source_code_link={PROMODRAWER.source_code_link}
+                                documentation_title={PROMODRAWER.documentation_title}
+                                documentation_link={PROMODRAWER.documentation_link}
+                                contribution={PROMODRAWER.contribution}
+                                languages={PROMODRAWER.languages}
+                                date={PROMODRAWER.date}
+                                extra_resource={PROMODRAWER.extra_resource}
+                                location={PROMODRAWER.location}
+                                extra_resource_TF={PROMODRAWER.extra_resource_TF}
+                                image={PROMODRAWER.image}
+                            />  
+                                
+                            <Portfolio
+                                title={VIDEDU.title}
+                                description={VIDEDU.description}
+                                website_title={VIDEDU.website_title}
+                                website_link={VIDEDU.website_link}
+                                source_code_title={VIDEDU.source_code_title}
+                                source_code_link={VIDEDU.source_code_link}
+                                documentation_title={VIDEDU.documentation_title}
+                                documentation_link={VIDEDU.documentation_link}
+                                contribution={VIDEDU.contribution}
+                                languages={VIDEDU.languages}
+                                date={VIDEDU.date}
+                                extra_resource={VIDEDU.extra_resource}
+                                location={VIDEDU.location}
+                                extra_resource_TF = {VIDEDU.extra_resource_TF}
+                                image = {VIDEDU.image}
+                            />  
+
+                        </div>
+
+                        <div className="row row-0-gutter">
                             <Portfolio
                                 title={TEMPLATE_CREATOR.title}
                                 description={TEMPLATE_CREATOR.description}
@@ -108,9 +131,6 @@ class HomePage extends Component {
 
                           
                     
-                        </div>
-                        <div className="row row-0-gutter">
-
                             <Portfolio
                                 title={PERSONALWEBSITE.title}
                                 description={PERSONALWEBSITE.description}
@@ -128,7 +148,10 @@ class HomePage extends Component {
                                 extra_resource_TF={PERSONALWEBSITE.extra_resource_TF}
                                 image={PERSONALWEBSITE.image}
                             />
-                
+                            </div>
+
+                            <div className="row row-0-gutter">
+
                             <Portfolio
                                 title={GOOGLESCRIPT.title}
                                 description={GOOGLESCRIPT.description}
@@ -146,8 +169,7 @@ class HomePage extends Component {
                                 extra_resource_TF={GOOGLESCRIPT.extra_resource_TF}
                                 image={GOOGLESCRIPT.image}
                             />
-                        </div>
-                        <div className="row row-0-gutter">
+                       
                             <Portfolio
                                 title={PHOTOWORLD.title}
                                 description={PHOTOWORLD.description}
@@ -165,6 +187,9 @@ class HomePage extends Component {
                                 extra_resource_TF={PHOTOWORLD.extra_resource_TF}
                                 image={PHOTOWORLD.image}
                             />
+
+                        </div>
+                        <div className="row row-0-gutter">
                             <Portfolio
                                 title={SFPARK.title}
                                 description={SFPARK.description}
@@ -182,8 +207,7 @@ class HomePage extends Component {
                                 extra_resource_TF={SFPARK.extra_resource_TF}
                                 image={SFPARK.image}
                             />
-                        </div>
-                        <div className="row row-0-gutter">
+                        
                             <Portfolio
                                 title={RUBYSCRIPT.title}
                                 description={RUBYSCRIPT.description}
@@ -201,7 +225,11 @@ class HomePage extends Component {
                                 extra_resource_TF={RUBYSCRIPT.extra_resource_TF}
                                 image={RUBYSCRIPT.image}
                             />
-                   
+
+                            </div>
+
+                            <div className="row row-0-gutter">
+
                             <Portfolio
                                 title={_4UIMG.title}
                                 description={_4UIMG.description}
@@ -219,10 +247,9 @@ class HomePage extends Component {
                                 extra_resource_TF={_4UIMG.extra_resource_TF}
                                 image={_4UIMG.image}
                             /> 
-                        </div>
+                       
 
 
-                        <div className="row row-0-gutter">
                             <Portfolio
                                 title={RENTALS.title}
                                 description={RENTALS.description}
