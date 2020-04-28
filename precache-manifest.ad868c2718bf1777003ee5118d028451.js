@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca8ee2a5d74ead6b06e2bb8cc03e48de",
+    "revision": "b326ff4e0f79bf2e23a7af75d5a52362",
     "url": "/jonathan-raxa/index.html"
   },
   {
-    "revision": "accdc017ee245cb6a8e3",
-    "url": "/jonathan-raxa/static/css/2.22a7d4ef.chunk.css"
+    "revision": "306538fa0af60df1544d",
+    "url": "/jonathan-raxa/static/css/2.89f067aa.chunk.css"
   },
   {
-    "revision": "d45dead045cec72db3b8",
-    "url": "/jonathan-raxa/static/css/main.d369f3e2.chunk.css"
+    "revision": "7be43b11317ecfd2584f",
+    "url": "/jonathan-raxa/static/css/main.be671711.chunk.css"
   },
   {
-    "revision": "accdc017ee245cb6a8e3",
-    "url": "/jonathan-raxa/static/js/2.7ae2f3b9.chunk.js"
+    "revision": "306538fa0af60df1544d",
+    "url": "/jonathan-raxa/static/js/2.44d7d619.chunk.js"
   },
   {
-    "revision": "d45dead045cec72db3b8",
-    "url": "/jonathan-raxa/static/js/main.58098d36.chunk.js"
+    "revision": "1bd38dfc7f3d19772812daabb914b1ec",
+    "url": "/jonathan-raxa/static/js/2.44d7d619.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "126b2fa406b91de4efb7",
-    "url": "/jonathan-raxa/static/js/runtime~main.2af9d409.js"
+    "revision": "7be43b11317ecfd2584f",
+    "url": "/jonathan-raxa/static/js/main.15318d07.chunk.js"
+  },
+  {
+    "revision": "72168d6753a408c41077",
+    "url": "/jonathan-raxa/static/js/runtime-main.63128b90.js"
   },
   {
     "revision": "b6a74f22373e3e066c4be23358f132b1",
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f68fa5ccd1e2fc0c1bb9592c2838c9c9",
     "url": "/jonathan-raxa/static/media/photoworld.f68fa5cc.jpg"
+  },
+  {
+    "revision": "518879a7d19a91dda88af292b3f09c8b",
+    "url": "/jonathan-raxa/static/media/promodrawer.518879a7.jpg"
   },
   {
     "revision": "4cef5c054998d85819318eb326f3dca2",
