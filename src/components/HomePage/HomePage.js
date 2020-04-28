@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import { AboutMe } from "./AboutMe/AboutMe";
 import { TheMotto } from "./AboutMe/TheMotto";
 import { PortfolioHeading } from "./Portfolio/PortfolioHeading";
 import { Education } from "./AboutMe/Education";
@@ -11,6 +10,7 @@ import PanelTwo from "./AboutMe/PanelTwo";
 import PanelThree from "./AboutMe/PanelThree";
 import WorkExperience from "./WorkExperience/WorkExperience";
 import Portfolio from "./Portfolio/Portfolio";
+import Heading from './Heading';
 
 import { VIDEDU,
         _4UIMG,
@@ -23,8 +23,6 @@ import { VIDEDU,
         TEMPLATE_CREATOR,
         PROMODRAWER} from '../Assets/Assets';
 
-
-
 class HomePage extends Component {
     
     render() {
@@ -33,13 +31,20 @@ class HomePage extends Component {
            
             <div className="Homepage">
                 <NavBarHome />
-                <section id="aboutme">
+                <section id="heading">
+                    <div className="container">
+                        <div className="row">
+                            <Heading />
+                        </div>
+                    </div>
+                </section>
+                {/* <section id="aboutme">
                     <div className="container">
                         <div className="row">
                             <AboutMe />
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 <section id="panels" style={{ paddingBottom: '0'}}>
                     <div className="container">

@@ -8,7 +8,8 @@ import Resume from '../components/Resume/Resume';
 import HomePage from '../components/HomePage/HomePage';
 
 import './App.css';
-import '../css/styles.css';
+import '../sass/styles.scss';
+import '../sass/main.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 
 class App extends Component {
