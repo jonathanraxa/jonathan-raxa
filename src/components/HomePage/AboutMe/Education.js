@@ -3,7 +3,7 @@ import React from 'react';
 export const Education = () => {
     return (
         <div className="col-lg-12 text-center">
-            <div className="section-title" style={{ marginTop: '5%' }}>
+            <div className="section-title" style={{ marginBottom: '4rem' }}>
                 <h2>EDUCATION</h2>
                 <p>
                     San Francisco State University | <strong>Bachelor of Science in Computer Science</strong> | August 2010 – May 2016

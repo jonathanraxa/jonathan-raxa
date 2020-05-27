@@ -7,7 +7,7 @@ export const Gutter = () => {
             <div className="col-md-3 col-0-gutter mz-about-default text-center">
                 <div className="mz-module-about">
                     <i className="fas fa-briefcase ot-circle" />
-                    <h3>Web Development</h3>
+                    <h3>Development</h3>
                 </div>
             </div>
             {/* end about module */}
@@ -15,7 +15,7 @@ export const Gutter = () => {
             <div className="col-md-3 col-0-gutter mz-about-dark text-center">
                 <div className="mz-module-about">
                     <i className="fas fa-folder-plus ot-circle" />
-                    <h3>Software Creation</h3>
+                    <h3>Software</h3>
                 </div>
             </div>
             {/* end about module */}
@@ -23,7 +23,7 @@ export const Gutter = () => {
             <div className="col-md-3 col-0-gutter mz-about-default text-center">
                 <div className="mz-module-about">
                     <i className="fas fa-image ot-circle" />
-                    <h3>Data Visualization</h3>
+                    <h3>Design</h3>
                 </div>
             </div>
             {/* end about module */}
@@ -31,7 +31,7 @@ export const Gutter = () => {
             <div className="col-md-3 col-0-gutter mz-about-dark text-center">
                 <div className="mz-module-about">
                     <i className="fas fa-cube ot-circle" />
-                    <h3>UI/UX Design</h3>
+                    <h3>Data</h3>
                 </div>
             </div>
             {/* end about module */}

@@ -1,11 +1,7 @@
 .container__heading{
     display: flex;
     flex-direction: column;
-
-
 }
-
-
 
 .header{
     position: relative;
@@ -109,4 +105,64 @@
         opacity: 1;
         transform: translate(0);
     }
+}
+
+// profile image
+@media(min-width: 987px){
+    .profile-image{
+        width: 50%;
+        max-width: 900px;
+       
+    }
+    .full_panel{
+          width: 100%;
+          max-width: 1920px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin: 0 auto;
+        
+          &-details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 986px) {
+     .profile-image{
+        width: 100%;
+       
+    }
+  .full_panel{
+          width: 100%;
+          max-width: 1920px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin: 0 auto;
+        
+          &-details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+    }
+}
+
+
+// OVERRIDES
+.team-item p{
+    padding: 0 !important;
+}
+.mz-module-about {
+    padding: 0px !important;
+}
+.ot-circle{
+    margin: 2rem 0 !important;
 }
