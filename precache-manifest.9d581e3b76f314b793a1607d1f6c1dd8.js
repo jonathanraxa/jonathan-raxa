@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7457f01e11619f0179d384e9db73f5f7",
+    "revision": "bd787d5e07cbd520b7a981f0a10de782",
     "url": "/jonathan-raxa/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jonathan-raxa/static/css/2.89f067aa.chunk.css"
   },
   {
-    "revision": "e5ae8118d2ce8b7874ca",
+    "revision": "afbfc774e6dff4762ec8",
     "url": "/jonathan-raxa/static/css/main.1a5957e6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jonathan-raxa/static/js/2.bafcc4d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5ae8118d2ce8b7874ca",
-    "url": "/jonathan-raxa/static/js/main.a84b6a66.chunk.js"
+    "revision": "afbfc774e6dff4762ec8",
+    "url": "/jonathan-raxa/static/js/main.9ba50b93.chunk.js"
   },
   {
     "revision": "72168d6753a408c41077",
