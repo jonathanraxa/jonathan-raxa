@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b326ff4e0f79bf2e23a7af75d5a52362",
+    "revision": "7457f01e11619f0179d384e9db73f5f7",
     "url": "/jonathan-raxa/index.html"
   },
   {
-    "revision": "306538fa0af60df1544d",
+    "revision": "024f7361bff65e4bf379",
     "url": "/jonathan-raxa/static/css/2.89f067aa.chunk.css"
   },
   {
-    "revision": "7be43b11317ecfd2584f",
-    "url": "/jonathan-raxa/static/css/main.be671711.chunk.css"
+    "revision": "e5ae8118d2ce8b7874ca",
+    "url": "/jonathan-raxa/static/css/main.1a5957e6.chunk.css"
   },
   {
-    "revision": "306538fa0af60df1544d",
-    "url": "/jonathan-raxa/static/js/2.44d7d619.chunk.js"
+    "revision": "024f7361bff65e4bf379",
+    "url": "/jonathan-raxa/static/js/2.bafcc4d1.chunk.js"
   },
   {
     "revision": "1bd38dfc7f3d19772812daabb914b1ec",
-    "url": "/jonathan-raxa/static/js/2.44d7d619.chunk.js.LICENSE.txt"
+    "url": "/jonathan-raxa/static/js/2.bafcc4d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7be43b11317ecfd2584f",
-    "url": "/jonathan-raxa/static/js/main.15318d07.chunk.js"
+    "revision": "e5ae8118d2ce8b7874ca",
+    "url": "/jonathan-raxa/static/js/main.a84b6a66.chunk.js"
   },
   {
     "revision": "72168d6753a408c41077",
     "url": "/jonathan-raxa/static/js/runtime-main.63128b90.js"
+  },
+  {
+    "revision": "78b6455f5a8459d673f03cad8b90843d",
+    "url": "/jonathan-raxa/static/media/creative.78b6455f.jpg"
   },
   {
     "revision": "b6a74f22373e3e066c4be23358f132b1",
