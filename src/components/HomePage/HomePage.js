@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { TheMotto } from "./AboutMe/TheMotto";
 import { PortfolioHeading } from "./Portfolio/PortfolioHeading";
 import { Education } from "./AboutMe/Education";
+import LeaveALegacy from "../Evergreen/LeaveALegacy";
+import QuestionBuildSolve from "../Evergreen/QuestionBuildSolve";
 
 import NavBarHome from "./NavBarHome";
 import MainPanel from "./AboutMe/MainPanel";
@@ -30,20 +32,17 @@ class HomePage extends Component {
           <div className="Homepage">
             <NavBarHome />
             <Heading />
-
+            <QuestionBuildSolve />
             <section
               id="panels"
               style={{ paddingBottom: "0", paddingTop: "0" }}
             >
               <MainPanel />
             </section>
-
             <TheMotto />
-
             <section>
               <WorkExperience />
             </section>
-
             <section>
               <div className="container">
                 <PortfolioHeading />
@@ -237,11 +236,15 @@ class HomePage extends Component {
                 </div>
               </div>
             </section>
-
-            <hr />
-
-            <section id="education">
+            <section id="legacy">
               <div className="container">
+                <div className="row">
+                  <LeaveALegacy />
+                </div>
+              </div>
+            </section>
+            <section id="education" className="light-bg">
+              <div className="container" style={{ marginTop: "3rem" }}>
                 <div className="row">
                   <Education />
                 </div>

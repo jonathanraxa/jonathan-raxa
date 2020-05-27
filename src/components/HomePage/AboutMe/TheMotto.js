@@ -7,11 +7,29 @@ export const TheMotto = () => {
           <div className="row">
             <div className="col-lg-12 text-center">
               <div className="section-title">
-                <p className="theMotto">
+                <p className="theMotto" style={{ fontWeight: "300" }}>
                   <blockquote>
-                    "I wish I'd had the <strong>courage</strong> to live <br />a
-                    life <strong>true to myself</strong>, <br />
-                    not the life others <strong>expected</strong> of me."
+                    <p className="theMotto--lines">
+                      I wish I'd had the{" "}
+                      <span className="theMotto--bolded">
+                        <strong>courage</strong>
+                      </span>{" "}
+                      to live <br />
+                    </p>
+                    <p className="theMotto--lines">
+                      a life{" "}
+                     <span className="theMotto--bolded">
+                        <strong>true</strong>
+                      </span>
+                      &nbsp;to myself,
+                    </p>
+                    <p className="theMotto--lines">
+                      not the life others{" "}
+                     <span className="theMotto--bolded">
+                        <strong>expected</strong>
+                      </span>{" "}
+                      of me.
+                    </p>
                   </blockquote>
                 </p>
               </div>
