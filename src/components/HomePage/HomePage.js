@@ -5,9 +5,6 @@ import { PortfolioHeading } from "./Portfolio/PortfolioHeading";
 import { Education } from "./AboutMe/Education";
 
 import NavBarHome from "./NavBarHome";
-import PanelOne from "./AboutMe/PanelOne";
-import PanelTwo from "./AboutMe/PanelTwo";
-import PanelThree from "./AboutMe/PanelThree";
 import MainPanel from "./AboutMe/MainPanel";
 
 import WorkExperience from "./WorkExperience/WorkExperience";
@@ -32,13 +29,7 @@ class HomePage extends Component {
         return (
           <div className="Homepage">
             <NavBarHome />
-            <section id="heading">
-              <div className="container">
-                <div className="row">
-                  <Heading />
-                </div>
-              </div>
-            </section>
+            <Heading />
 
             <section
               id="panels"
@@ -46,7 +37,6 @@ class HomePage extends Component {
             >
               <MainPanel />
             </section>
-
 
             <TheMotto />
 

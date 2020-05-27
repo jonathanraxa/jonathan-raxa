@@ -134,8 +134,7 @@
 
 @media (max-width: 986px) {
      .profile-image{
-        width: 100%;
-       
+        width: 100%;       
     }
   .full_panel{
           width: 100%;
@@ -152,9 +151,101 @@
             align-items: center;
             padding: 2rem;
         }
+        &-icon-rows{
+
+        }
+    }
+    .fake_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    
+    &:hover {        
+        .real_link {        
+            opacity: 1;                    
+        }
+    }
+    .real_link {        
+        opacity: 0;
+        transition: .5s ease;
+    }
+  
     }
 }
 
+ .full_panel{
+
+    &-icon-rows{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+        
+        .fake_link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+            
+        &:hover { 
+            font-size: 1.1rem;
+            .real_link {        
+                opacity: 1;                
+            }
+                
+        }
+        .real_link {        
+            opacity: 0;
+            transition: .5s ease;
+            a {
+                color: #000;
+                &:hover{
+                    color: #fec503;
+                }
+            }
+        }
+    }
+} 
+  
+    
+
+
+
+
+.embed-container {position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } 
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed {position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.section-title p.theMotto{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2.5em;
+    margin:0;
+}
+section#panels{
+    padding-top:0 !important;
+}
+.who_link{
+    color: #fff;
+}
+
+.who_link:hover{
+    text-decoration: none;
+    color: #fec503;
+}
+
+
+@keyframes show-yourself{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 // OVERRIDES
 .team-item p{
