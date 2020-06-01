@@ -13,10 +13,6 @@
     cursor: pointer;
 }
 
-.Collapsible__trigger:hover{
-    background-color: #fed136;
-}
-
 .Projects .paddBottom1em{
     padding-bottom: 1em;
 }

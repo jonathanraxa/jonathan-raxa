@@ -1,7 +1,31 @@
 .container__heading{
     display: flex;
     flex-direction: column;
+    
+    &--buttons{
+        margin-top: 2rem;
+        
+        .head-button{
+            &:first-child{
+                margin-right: 1rem;
+            }
+            color: #fff;
+            padding: 1rem 4rem;
+            background-color: #343a40;
+            text-transform: uppercase;
+            transition: 1s ease;
+            font-weight: 400;
+            border: 1px solid #fff;
+
+            &:hover{
+                text-decoration: none;
+                color: #fec503;
+                font-size: 1.5rem;
+            }                         
+        }        
+    }     
 }
+ 
 
 .header{
     position: relative;
@@ -283,7 +307,155 @@
             }
         }
     }
-} 
+}
+
+.animate-me{
+    // opacity: 0;
+    animation-name: animate-show;
+    transition: ease;
+    animation-duration: 1.5s;
+}
+
+@keyframes animate-show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }    
+}
+
+
+.resume-container{
+    padding: 0 50px;
+}
+
+.experience{  
+    &--icons{
+        .Collapsible{
+            text-align: center;
+        }
+        
+        @media (min-width: 596px) {
+            display: flex;
+            justify-content: space-around;    
+        }
+
+        @media (max-width: 595px) {
+            display: flex;
+            flex-direction: column;
+        }        
+    
+        img{
+            max-width: 100px;
+            transition: 1s ease;
+            &:hover{
+                padding: 1.2rem;
+                cursor: pointer;           
+            }
+        }
+
+        @media (max-width: 595px) {            
+            img {
+                max-width: 200px;
+                margin-top: 3rem;
+              
+            }            
+        }
+        .no-mar-top{
+            margin-top: 0 !important;
+        }
+    }
+}
+
+.portfolio{
+    &--icons{
+        .company-logo{
+            height: 20rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .gapinc{
+            background-color: #adc9ff;
+        }
+        .lqdigital{
+            
+             background-color: #d06437;
+        }
+        .sfsu{
+            background-color: #2b286e;
+        }
+        .personal{
+            background-color: #000000;
+        }
+      .Collapsible{
+            text-align: center;
+        }
+        img{
+            max-width: 100px;
+        }
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;          
+    }
+    .project {
+    
+        &-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }       
+    }
+}
+
+@media(min-width: 987px){
+    .portfolio{
+        &--icons{
+            .col-md-3{
+                flex: 0 0 25%;
+                max-width: 25%;
+                transition: 1s ease;
+                &:hover{                    
+                    background-color: #fec503;
+                    cursor: pointer;
+                    img{
+                        transition: 1s ease;
+                        padding: 1rem;
+                    }
+                }
+            }
+        }    
+    }
+}
+
+@media(min-width: 638px){
+    .project {
+            &-item{
+                width: 50%;
+            }
+        }
+}
+@media(max-width: 637px){
+    .project {
+            &-item{
+                width: 100%;
+            }
+        }
+}
+
+@media (max-width: 986px) {
+    .portfolio{
+        &--icons{
+            .col-md-3{
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+    }
+    
+}
   
     
 
@@ -318,21 +490,7 @@
 section#panels{
     padding-top:0 !important;
 }
-.who_link{
-    color: #fff;
-    padding: 1rem 4rem;
-    background-color: #343a40;
-    text-transform: uppercase;
-    transition: 1s ease;
-    font-weight: 400;
-        border: 1px solid #fff;
-}
 
-.who_link:hover{
-    text-decoration: none;
-    color: #fec503;
-    font-size: 1.5rem;
-}
 
 
 @keyframes show-yourself{

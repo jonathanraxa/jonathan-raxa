@@ -2,27 +2,27 @@ import React from "react";
 import { PERSONAL_LINKS, IMAGES } from '../../Assets/Assets';
 
 const linkedinIcon = (
-  <a href={PERSONAL_LINKS.linkedin} target="_blank">
+  <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
     <i class="fab fa-linkedin fa-4x"></i>
   </a>
 );
 const mediumIcon = (
-    <a href={PERSONAL_LINKS.medium} target="_blank">
+    <a href={PERSONAL_LINKS.medium} target="_blank" rel="noopener noreferrer">
       <i class="fab fa-medium fa-4x"></i>
     </a>
 );
 const devtoIcon = (
-  <a href={PERSONAL_LINKS.devto} target="_blank">
+  <a href={PERSONAL_LINKS.devto} target="_blank" rel="noopener noreferrer">
     <i class="fab fa-dev fa-4x"></i>
   </a>
 );
 const githubIcon = (
-  <a href={PERSONAL_LINKS.github} target="_blank">
+  <a href={PERSONAL_LINKS.github} target="_blank" rel="noopener noreferrer">
     <i class="fab fa-github fa-4x"></i>
   </a>
 );
 const wordpressIcon = (
-  <a href={PERSONAL_LINKS.wordpress} target="_blank">
+  <a href={PERSONAL_LINKS.wordpress} target="_blank" rel="noopener noreferrer">
     <i className="fab fa-wordpress fa-4x"></i>
   </a>
 );
@@ -58,7 +58,7 @@ const MainPanel = () => {
             <div className="full_panel-icon-rows">
               <div className="fake_link">
                 <div className="real_link">
-                  <a href={PERSONAL_LINKS.linkedin} target="_blank">
+                  <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
                     Linkedin
                   </a>
                 </div>
@@ -88,7 +88,7 @@ const MainPanel = () => {
           <div className="full_panel-icon-rows">
             <div className="fake_link">
               <div className="real_link">
-                <a href={PERSONAL_LINKS.github} target="_blank">
+                <a href={PERSONAL_LINKS.github} target="_blank" rel="noopener noreferrer">
                   Github
                 </a>
               </div>
@@ -96,7 +96,7 @@ const MainPanel = () => {
             </div>
             <div className="fake_link">
               <div className="real_link">
-                <a href={PERSONAL_LINKS.linkedin} target="_blank">
+                <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
                   Dev.to
                 </a>
               </div>
@@ -115,7 +115,7 @@ const MainPanel = () => {
           <div className="full_panel-icon-rows">
             <div className="fake_link">
               <div className="real_link">
-                <a href={PERSONAL_LINKS.linkedin} target="_blank">
+                <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
                   Medium
                 </a>
               </div>
@@ -123,7 +123,7 @@ const MainPanel = () => {
             </div>
             <div className="fake_link">
               <div className="real_link">
-                <a href={PERSONAL_LINKS.linkedin} target="_blank">
+                <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
                   Dev.to
                 </a>
               </div>
@@ -131,7 +131,7 @@ const MainPanel = () => {
             </div>
             <div className="fake_link">
               <div className="real_link">
-                <a href={PERSONAL_LINKS.linkedin} target="_blank">
+                <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
                   Wordpress
                 </a>
               </div>

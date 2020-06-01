@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import Collapsible from 'react-collapsible';
+import React from 'react';
 
 export const TechExperienceOne = () => {
     return (
         <div className="row">
             <div className="col-lg-12 text-center custom-row-width-col">
-                <div className="mz-about-container">
+                <div className="resume-container no-mar-top">
                     <h2 className="resume-title">Front-End Web Content Developer</h2>
                     <p>Gap Inc, San Francisco&nbsp;|&nbsp;September 2016 – Present</p>
                     <ul>

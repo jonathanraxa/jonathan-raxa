@@ -1,7 +1,13 @@
+// company logos
+import gapinc from "../../img/companies/gaplogo.svg";
+import lqdigital from "../../img/companies/lq-logo.svg";
+import sfsu from "../../img/companies/sfsulogo.png";
+
 // personal photos for extra curriculars
 import profile_photo from '../../img/me/jonRaxa_edited.jpg';
 import introverted_intellect_profile from '../../img/me/logo_with_me_v3.jpg';
 import introverted_intellect_logo from '../../img/logo.png';
+import personal_logo from '../../img/creative.jpg';
 
 // portfolio photos
 import videdu from '../../img/projects/videdu.jpg';
@@ -32,7 +38,11 @@ export const IMAGES = {
     sftoastbusters: sftoastbusters,
     pending: pending,
     googlescript: googlescript,
-    promodrawer: promodrawer
+    promodrawer: promodrawer,
+    gapinc: gapinc,
+    lqdigital: lqdigital,
+    sfsu: sfsu,
+    personal_logo: personal_logo,
 };
 
 // links

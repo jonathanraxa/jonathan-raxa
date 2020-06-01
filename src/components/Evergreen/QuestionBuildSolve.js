@@ -3,7 +3,7 @@ import React from "react";
 const QuestionBuildSolve = () => {
   return (
     <div>
-      <div id="theMottoTop"></div>
+      <div id="motto-quote"></div>
       <section className="TheMotto" id="motto">
         <div className="container">
           <div className="row">

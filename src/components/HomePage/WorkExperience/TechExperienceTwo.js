@@ -4,7 +4,7 @@ export const TechExperienceTwo = () => {
     return (
       <div className="row">
         <div className="col-lg-12 text-center custom-row-width-col">
-          <div className="mz-about-container">
+          <div className="resume-container">
             <h2 className="resume-title">
               Front-End Web Content Manager & Developer
             </h2>

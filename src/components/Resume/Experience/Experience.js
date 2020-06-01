@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Experience = () => {
     return (
         <div className="Experience" id="experience">
@@ -30,12 +29,12 @@ const Experience = () => {
                             <li>Pioneering new front-end Salesforce CMS process and site templating for Gap EU/UK</li>
                             <li>Launching bi-monthly marketing campaigns using HTML/CSS for engaging customer experience</li>
                             <li>Developed Google scripts to simplify workflow resulting in a 50% increase in productivity</li>
-                            <li>Consulting with brand partners and coding HTML for optimal site performance and customer experience</li>                        </ul>
+                            <li>Consulting with brand partners and coding HTML for optimal site performance and customer experience</li>                        
+                        </ul>
                     </div>
                 </div>
             </div>
 
-        <br />
             {/* LQ DIGIAL */}
             <div className="lqdigital">
                 <div className="row no-gutters">
@@ -58,7 +57,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-            <br />
+           
             {/* SFSI I.T.s and COE */}
             <div className="sfsu">
                 <div className="row no-gutters">
@@ -83,8 +82,8 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
+        
         </div>
-
     )
 }
 

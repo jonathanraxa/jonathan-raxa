@@ -18,12 +18,14 @@ const Heading = () => {
           Jonathan <span style={{ fontWeight: "700" }}>Raxa</span>
         </h2>
 
-          <a
-            class="who_link"
-            href="#theMottoTop"         
-          >
+        <div className="container__heading--buttons">
+          <a class="head-button head-button-1" href="#motto-quote">
             who?
           </a>
+          <a class="head-button head-button-2" href="#portfolio">
+            portfolio
+          </a>
+        </div>
       </div>
       <div
         className="section-title name__heading light-bg"

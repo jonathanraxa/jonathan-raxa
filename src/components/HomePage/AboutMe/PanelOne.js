@@ -17,7 +17,7 @@ const PanelOne = () => {
                     <div className="team-position">Specialized in <br />Front-End Web Development</div>
                 </a>
                     <br />
-                    <a href={PERSONAL_LINKS.linkedin} target="_blank">FIND ME ON LINKEDIN</a>
+                    <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">FIND ME ON LINKEDIN</a>
                     <a className="page-scroll" href="#portfolio">
                         <p>Seven year experience with front-end web development with technologies such as Responsive HTML/CSS, Drupal, Wordpress, Demandware CMS, and JavaScript.</p>
                     </a>

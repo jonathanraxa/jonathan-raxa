@@ -538,8 +538,13 @@ footer p a span {
 .modal-content {
 	border-radius: 0;	
 }
+.modal-header{
+    padding: 1rem 0px;
+}
 .modal-header .close {
-	font-size: 30px;	
+    font-size: 50px;	
+    padding: 0;
+    padding-right: .5rem;
 }
 .modal-title {    
 	text-transform: uppercase;
