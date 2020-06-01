@@ -1,7 +1,7 @@
 import React from "react";
 import { PortfolioHeading } from "./PortfolioHeading";
 import { IMAGES } from "../../Assets/Assets";
-import "./Portfolio.css";
+import "../../../sass/Portfolio.scss";
 
 import {
   PROJECT_VIDEDU,
@@ -89,8 +89,8 @@ const personal_projects = (
 
 class PortfolioContainer extends React.Component {
 
-constructor(props, context) {
-  super(props, context);
+constructor(props) {
+  super(props);
   this.state = {
     gapinc: false,
     lqdigital: false,
@@ -145,11 +145,7 @@ constructor(props, context) {
           personal: false,
         });
       break;      
-    }
-    // console.log(this.state);
-    let item = document.querySelectorAll(".project-item");
-    // console.log(item.classList);
-    // item.classList.add('animate-show');
+    }   
   }
 
   render() {

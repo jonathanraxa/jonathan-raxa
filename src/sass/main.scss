@@ -1,3 +1,23 @@
+// utilities
+.margin-top-small{
+    margin-top: 1em;
+}
+.margin-bot-small{
+    margin-bottom: 1em;
+}
+.margin-top-bottom-small{
+    margin: 1em 0;
+}
+.margin-top-normal{
+    margin-top: 2em;
+}
+.margin-bot-normal{
+    margin-bottom: 2em;
+}
+.margin-top-bottom-normal{
+    margin: 2em 0;
+}
+
 .container__heading{
     display: flex;
     flex-direction: column;
@@ -376,6 +396,33 @@
             justify-content: center;
             align-items: center;
         }
+
+
+        @media(min-width: 987px){
+          
+            .col-md-3{
+                flex: 0 0 25%;
+                max-width: 25%;
+                transition: 1s ease;
+                &:hover{                    
+                    background-color: #fec503;
+                    cursor: pointer;
+                    img{
+                        transition: 1s ease;
+                        padding: 1rem;
+                    }
+                }
+            }            
+        }
+
+        @media (max-width: 986px) {   
+            .col-md-3{
+                flex: 0 0 50%;
+                max-width: 50%;
+            }      
+        } 
+
+
         .gapinc{
             background-color: #adc9ff;
         }
@@ -406,56 +453,141 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-        }       
+        }    
+       
+    }
+     @media(min-width: 638px){
+        .project {
+                &-item{
+                    width: 50%;
+                }
+            }
+    }
+    @media(max-width: 637px){
+        .project {
+            &-item{
+                width: 100%;
+            }
+        }
     }
 }
 
-@media(min-width: 987px){
-    .portfolio{
-        &--icons{
-            .col-md-3{
-                flex: 0 0 25%;
-                max-width: 25%;
-                transition: 1s ease;
-                &:hover{                    
-                    background-color: #fec503;
+
+.education{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    img{
+        max-width: 430px;
+        padding: 4rem;
+    }
+    &-description{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        margin: 4rem auto;
+        .school{
+            margin: 1rem auto;
+            color: #25236e;
+            font-weight: 700;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+        .read-more{
+            p{
+                font-size: 1.2rem;
+            }
+            margin-top: 3rem;
+        }
+    }
+   @media(max-width: 730px){
+        display: flex;
+        flex-direction: column-reverse;
+        
+        img{
+            max-width: 300px;
+            padding: 2rem;
+        }   
+        &-description{
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+.extracurricular{
+    
+    width: 100%;
+
+    &-icons{
+        display: flex;
+     
+        width: 100%;
+        @media(min-width: 987px){
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        @media(max-width: 986px){
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .panel{
+             transition: 1s ease;
+                @media(min-width: 987px){                 
+                    &:hover{                    
                     cursor: pointer;
+
                     img{
                         transition: 1s ease;
                         padding: 1rem;
                     }
                 }
+            }  
+        }
+       
+                
+       .panel {
+             @media(min-width: 987px){
+                img {
+                    max-width: 260px;
+                }
             }
-        }    
+             @media(max-width: 986px){
+                img {
+                    max-width: 100px;
+                }
+             }
+
+        }   
+          
     }
+
+
+
+     &-description{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem;
+     
+        @media(min-width: 987px){
+            width: 50%;
+            margin: 0 auto;           
+        }
+        @media(max-width: 986px){
+            padding: 2rem;
+            width: 100%;
+        }
+          
+    } 
 }
 
-@media(min-width: 638px){
-    .project {
-            &-item{
-                width: 50%;
-            }
-        }
-}
-@media(max-width: 637px){
-    .project {
-            &-item{
-                width: 100%;
-            }
-        }
-}
-
-@media (max-width: 986px) {
-    .portfolio{
-        &--icons{
-            .col-md-3{
-                flex: 0 0 50%;
-                max-width: 50%;
-            }
-        }
-    }
-    
-}
   
     
 

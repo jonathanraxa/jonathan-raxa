@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link as RouteLink } from 'react-router-dom';
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
-import '../Evergreen/Evergreen.css';
+import "../../sass/Evergreen.scss";
 import '../../containers/App.css';
 
 export default class NavBarResume extends Component {

@@ -5,9 +5,9 @@ import { Education } from "./AboutMe/Education";
 import LeaveALegacy from "../Evergreen/LeaveALegacy";
 import QuestionBuildSolve from "../Evergreen/QuestionBuildSolve";
 import PortfolioContainer from './Portfolio/PortfolioContainer';
+import ExtraCurricularCont from './ExtraCurricular/ExtraCurricularCont';
 import NavBarHome from "./NavBarHome";
 import MainPanel from "./AboutMe/MainPanel";
-
 import WorkExperience from "./WorkExperience/WorkExperience";
 import Heading from './Heading';
 
@@ -34,16 +34,23 @@ class HomePage extends Component {
              <PortfolioContainer />
             </section>
             <section id="legacy">
-              <div className="container">
+              <div>
                 <div className="row">
                   <LeaveALegacy />
                 </div>
               </div>
             </section>
             <section id="education" className="light-bg">
-              <div className="container" style={{ marginTop: "3rem" }}>
+              <div style={{ marginTop: "3rem" }}>
                 <div className="row">
                   <Education />
+                </div>
+              </div>
+            </section>
+            <section id="extracurricular">
+              <div style={{ marginTop: "3rem" }}>
+                <div className="row">
+                  <ExtraCurricularCont />
                 </div>
               </div>
             </section>

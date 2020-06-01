@@ -1,7 +1,7 @@
 import React from "react";
 import Collapsible from "react-collapsible";
 import { Button, Modal } from "react-bootstrap";
-import "./Portfolio.css";
+import "../../../sass/Portfolio.scss";
 
 class Portfolio2 extends React.Component {
   constructor(props, context) {
