@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/jonathan-raxa/static/css/main.49f47f98.chunk.css",
-    "main.js": "/jonathan-raxa/static/js/main.aa1bea5d.chunk.js",
-    "main.js.map": "/jonathan-raxa/static/js/main.aa1bea5d.chunk.js.map",
+    "main.css": "/jonathan-raxa/static/css/main.5a462a90.chunk.css",
+    "main.js": "/jonathan-raxa/static/js/main.f9051929.chunk.js",
+    "main.js.map": "/jonathan-raxa/static/js/main.f9051929.chunk.js.map",
     "runtime-main.js": "/jonathan-raxa/static/js/runtime-main.63128b90.js",
     "runtime-main.js.map": "/jonathan-raxa/static/js/runtime-main.63128b90.js.map",
     "static/css/2.89f067aa.chunk.css": "/jonathan-raxa/static/css/2.89f067aa.chunk.css",
-    "static/js/2.a6daf2f5.chunk.js": "/jonathan-raxa/static/js/2.a6daf2f5.chunk.js",
-    "static/js/2.a6daf2f5.chunk.js.map": "/jonathan-raxa/static/js/2.a6daf2f5.chunk.js.map",
+    "static/js/2.e3354754.chunk.js": "/jonathan-raxa/static/js/2.e3354754.chunk.js",
+    "static/js/2.e3354754.chunk.js.map": "/jonathan-raxa/static/js/2.e3354754.chunk.js.map",
     "index.html": "/jonathan-raxa/index.html",
-    "precache-manifest.87500a4eb67c7f6ef5ee210280fdc203.js": "/jonathan-raxa/precache-manifest.87500a4eb67c7f6ef5ee210280fdc203.js",
+    "precache-manifest.8f64e7acf19d54cd2cc06df5d933c25b.js": "/jonathan-raxa/precache-manifest.8f64e7acf19d54cd2cc06df5d933c25b.js",
     "service-worker.js": "/jonathan-raxa/service-worker.js",
     "static/css/2.89f067aa.chunk.css.map": "/jonathan-raxa/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.49f47f98.chunk.css.map": "/jonathan-raxa/static/css/main.49f47f98.chunk.css.map",
-    "static/js/2.a6daf2f5.chunk.js.LICENSE.txt": "/jonathan-raxa/static/js/2.a6daf2f5.chunk.js.LICENSE.txt",
+    "static/css/main.5a462a90.chunk.css.map": "/jonathan-raxa/static/css/main.5a462a90.chunk.css.map",
+    "static/js/2.e3354754.chunk.js.LICENSE.txt": "/jonathan-raxa/static/js/2.e3354754.chunk.js.LICENSE.txt",
     "static/media/TB_LOGOTransparent.png": "/jonathan-raxa/static/media/TB_LOGOTransparent.3b471374.png",
     "static/media/main.scss": "/jonathan-raxa/static/media/creative.78b6455f.jpg",
     "static/media/fouruimg.jpg": "/jonathan-raxa/static/media/fouruimg.b6a74f22.jpg",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.63128b90.js",
     "static/css/2.89f067aa.chunk.css",
-    "static/js/2.a6daf2f5.chunk.js",
-    "static/css/main.49f47f98.chunk.css",
-    "static/js/main.aa1bea5d.chunk.js"
+    "static/js/2.e3354754.chunk.js",
+    "static/css/main.5a462a90.chunk.css",
+    "static/js/main.f9051929.chunk.js"
   ]
 }
