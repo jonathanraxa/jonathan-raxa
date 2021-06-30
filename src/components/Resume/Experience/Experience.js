@@ -137,7 +137,7 @@ const sfsuDuties = (
                 </div>
 
                 <div className="row no-gutters">
-                    <div className="offset-md-2 position_title" onClick={() => copyText('Front-End Web Content Manager / Developer')}>Front-End Web Content Manager / Developer</div>
+                    <div className="offset-md-2 position_title hover-copy" onClick={() => copyText('Front-End Web Content Manager / Developer')}>Front-End Web Content Manager / Developer</div>
                 </div>
 
                 <div className="row no-gutters">
