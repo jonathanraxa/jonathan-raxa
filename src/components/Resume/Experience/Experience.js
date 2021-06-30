@@ -4,38 +4,30 @@ const Experience = () => {
     const [ currentText, setCurrentText ] = useState('');
     const [ copySuccess, setCopySuccess ] = useState('');
     
-    const plmDuties = (
-        `
-        - Development skills: React JS, HTML/CSS, JavaScript, HAML, Ruby, Rails, SASS, Bootstrap, Jest/Enzyme, Git
-        - Developing features for PLM website using React, React Context, and Bootstrap library
-        - Implement architectural and design patterns for flagship site, React component library, and Sass node modules
-        - Working closely with product development to determine scope, breakdown, and sequencing of proposed features
-        - Organized and lead scrum master meetings for team
-        - Conducting peer code reviews using Git and necessary code pairing
-        `);
-    const gapDuties = (
-        `
-        - Development skills: React JS, HTML/CSS, JavaScript (jQuery), Salesforce B2C Development, Front-End Design
-        - Developed HTML/CSS campaign template creator using React JS
-        - Pioneering new front-end Salesforce CMS process and site templating for Gap EU/UK
-        - Launching bi-monthly marketing campaigns using HTML/CSS for engaging customer experience
-        - Developed Google scripts to simplify workflow resulting in a 50% increase in productivity
-        - Consulting with brand partners and coding HTML for optimal site performance and customer experience 
-        `);
-    const lqDuties = (
-        `
-        - Development skills: HTML/CSS, Ruby, JavaScript
-        - Developed ruby script to simplify content workflow from 4 hours to 15 minutes
-        - Produced and re-designed various websites for new promotions using HTML and CSS
-        `);
-    const sfsuDuties = (
-        `
-        - Development skills: Drupal CMS, HTML/CSS, JavaScript (jQuery)
-        - Led faculty training in Drupal CMS practices, development, and deployment
-        - Validated Drupal websites to ensure proper accessibility requirements for disability
-        - Oversaw and assisted with fixing various websites issues using web tools, HTML, and CSS
-        - Developed video prototype for instructor/student interaction using JavaScript, jQuery, HTML, and CSS
-        `);
+const plmDuties = (
+`- Development skills: React JS, HTML/CSS, JavaScript, HAML, Ruby, Rails, SASS, Bootstrap, Jest/Enzyme, Git
+- Developing features for PLM website using React, React Context, and Bootstrap library
+- Implement architectural and design patterns for flagship site, React component library, and Sass node modules
+- Working closely with product development to determine scope, breakdown, and sequencing of proposed features
+- Organized and lead scrum master meetings for team
+- Conducting peer code reviews using Git and necessary code pairing`);
+const gapDuties = (
+`- Development skills: React JS, HTML/CSS, JavaScript (jQuery), Salesforce B2C Development, Front-End Design
+- Developed HTML/CSS campaign template creator using React JS
+- Pioneering new front-end Salesforce CMS process and site templating for Gap EU/UK
+- Launching bi-monthly marketing campaigns using HTML/CSS for engaging customer experience
+- Developed Google scripts to simplify workflow resulting in a 50% increase in productivity
+- Consulting with brand partners and coding HTML for optimal site performance and customer experience`);
+const lqDuties = (
+`- Development skills: HTML/CSS, Ruby, JavaScript
+- Developed ruby script to simplify content workflow from 4 hours to 15 minutes
+- Produced and re-designed various websites for new promotions using HTML and CSS`);
+const sfsuDuties = (
+`- Development skills: Drupal CMS, HTML/CSS, JavaScript (jQuery)
+- Led faculty training in Drupal CMS practices, development, and deployment
+- Validated Drupal websites to ensure proper accessibility requirements for disability
+- Oversaw and assisted with fixing various websites issues using web tools, HTML, and CSS
+- Developed video prototype for instructor/student interaction using JavaScript, jQuery, HTML, and CSS`);
     
     const copyText = (val) => {
         if (['plm-duties', 'gap-duties', 'lq-duties', 'sfsu-duties'].includes(val)) {
