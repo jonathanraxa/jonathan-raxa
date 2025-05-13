@@ -37,17 +37,15 @@ const MainPanel = () => {
       >
         <div className="col-lg-12 text-center">
           <div className="section-title">
-            <h2>Web Developer</h2>
-
+            <h2>Front-end Engineer</h2>
             <p>
-              Front-End <i>(aspiring full-stack)</i>
+              <i>Aspiring full-stack</i>
             </p>
           </div>
         </div>
       </div>
       <div className="full_panel">
         <div className="full_panel-details">
-          {/* FIND ME ON LINKEDIN */}
           <div
             style={{
               width: "100%",
@@ -141,13 +139,12 @@ const MainPanel = () => {
 
           <div style={{ textAlign: "center", marginTop: "2rem" }}>
             <p>
-              Five years of experience with front-end web development in
-              technologies such as Responsive HTML, CSS, and JavaScript.
+              Five years of experience with front-end engineering in
+              technologies such as Responsive HTML, CSS, JavaScript, ReactJS, Node, JEST, & Cypress E2E.
             </p>
             <br></br>
             <p>
-              I've also worked with SFCC (Salesforce), React JS, Swift, & other
-              scripting languages.
+              I've also worked with SFCC (Salesforce) & Python.
             </p>
           </div>
         </div>

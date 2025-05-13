@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const TechExperienceOne = () => {
+export const GapExperience = () => {
     return (
         <div className="row">
             <div className="col-lg-12 text-center custom-row-width-col">

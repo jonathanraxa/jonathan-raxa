@@ -2,6 +2,8 @@
 import gapinc from "../../img/companies/gaplogo.svg";
 import lqdigital from "../../img/companies/lq-logo.svg";
 import sfsu from "../../img/companies/sfsulogo.png";
+import datarobot from "./datarobot.svg";
+import patientslikeme from "./patients-like-me.svg";
 
 // personal photos for extra curriculars
 import profile_photo from '../../img/me/jonRaxa_edited.jpg';
@@ -37,7 +39,6 @@ export const IMAGES = {
          mywebsitev2: mywebsitev2,
          rentals: rentals,
          sftoastbusters: sftoastbusters,
-         pending: pending,
          googlescript: googlescript,
          promodrawer: promodrawer,
          gapinc: gapinc,
@@ -45,6 +46,8 @@ export const IMAGES = {
          sfsu: sfsu,
          personal_logo: personal_logo,
          sftoastbusters_logo: sftoastbusters_logo,
+         datarobot_logo: datarobot,
+         patientslikeme_logo: patientslikeme,
        };
 
 // links

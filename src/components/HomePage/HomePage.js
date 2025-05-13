@@ -8,7 +8,7 @@ import PortfolioContainer from './Portfolio/PortfolioContainer';
 import ExtraCurricularCont from './ExtraCurricular/ExtraCurricularCont';
 import NavBarHome from "./NavBarHome";
 import MainPanel from "./AboutMe/MainPanel";
-import WorkExperience from "./WorkExperience/WorkExperience";
+import { WorkExperience } from "./WorkExperience/WorkExperience";
 import Heading from './Heading';
 
 class HomePage extends Component {

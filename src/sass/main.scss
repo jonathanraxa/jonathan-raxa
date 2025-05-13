@@ -350,41 +350,36 @@
     padding: 0 50px;
 }
 
-.experience{  
-    &--icons{
-        .Collapsible{
-            text-align: center;
-        }
-        
-        @media (min-width: 596px) {
-            display: flex;
-            justify-content: space-around;    
-        }
-
-        @media (max-width: 595px) {
-            display: flex;
-            flex-direction: column;
-        }        
+.job-description{  
     
-        img{
-            max-width: 100px;
-            transition: 1s ease;
-            &:hover{
-                padding: 1.2rem;
-                cursor: pointer;           
-            }
-        }
+    @media (min-width: 596px) {
+        display: flex;
+        justify-content: space-around;    
+    }
 
-        @media (max-width: 595px) {            
-            img {
-                max-width: 200px;
-                margin-top: 3rem;
-              
-            }            
+    @media (max-width: 595px) {
+        display: flex;
+        flex-direction: column;
+    }        
+
+    img{
+        max-width: 100px;
+        transition: 1s ease;
+        &:hover{
+            padding: 1.2rem;
+            cursor: pointer;           
         }
-        .no-mar-top{
-            margin-top: 0 !important;
-        }
+    }
+
+    @media (max-width: 595px) {            
+        img {
+            max-width: 200px;
+            margin-top: 3rem;
+            
+        }            
+    }
+    .no-mar-top{
+        margin-top: 0 !important;
     }
 }
 
