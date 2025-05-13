@@ -22,8 +22,8 @@ const Heading = () => {
           <a class="head-button head-button-1" href="#motto-quote">
             who?
           </a>
-          <a class="head-button head-button-2" href="#portfolio">
-            portfolio
+          <a class="head-button head-button-2" href="#experience">
+            experience
           </a>
         </div>
       </div>
