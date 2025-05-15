@@ -15,20 +15,6 @@ export const Education = () => {
               <strong>Bachelor of Science in Computer Science</strong>
               &nbsp;&nbsp;|&nbsp;&nbsp;August 2010 – May 2016
             </p>
-            <p>
-              and a <strong style={{ color: "red" }}>TON</strong> of Books
-            </p>
-            <div className="read-more">
-              <p>
-                <i>
-                  click{" "}
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    here
-                  </a>{" "}
-                  for my experience
-                </i>
-              </p>
-            </div>
           </div>
         </div>
       </div>

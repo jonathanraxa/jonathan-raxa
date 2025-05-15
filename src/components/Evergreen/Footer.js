@@ -21,9 +21,6 @@ export default function Footer({ dark, id }) {
                         <div className="col icon-col">
                             <a className="" href={PERSONAL_LINKS.facebook} target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f fa-2x" /></a>
                         </div>
-                        <div className="col icon-col">
-                            <a className="" href={PERSONAL_LINKS.googleplus} target="_blank" rel="noopener noreferrer"><i className="fab fa-google-plus fa-2x" /></a>
-                        </div>
                     </div>
                 </footer>
             </div>

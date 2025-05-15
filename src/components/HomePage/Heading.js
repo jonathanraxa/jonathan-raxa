@@ -1,6 +1,5 @@
 import React from "react";
- import {  IMAGES } from "../Assets/Assets";
-
+import { Link as RouteLink } from 'react-router-dom';
 
 const Heading = () => {
   return (
@@ -19,10 +18,16 @@ const Heading = () => {
         </h2>
 
         <div className="container__heading--buttons">
-          <a class="head-button head-button-1" href="#motto-quote">
+          <a className="head-button head-button-1" href="#motto-quote">
             who?
           </a>
-          <a class="head-button head-button-2" href="#experience">
+          <RouteLink
+            to={{ pathname: "/resume" }}
+            className="head-button head-button-2"
+          >
+            resume
+          </RouteLink>
+          <a className="head-button head-button-3" href="#experience">
             experience
           </a>
         </div>

@@ -19,22 +19,22 @@ import {
 
 const react = (
   <a href={`#`} target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-react fa-4x" style={{ color: "#000" }}></i>
+    <i className="fab fa-react fa-4x" style={{ color: "#000" }}></i>
   </a>
 );
 const javascript = (
   <a href={`#`} target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-js fa-4x" style={{ color: "#000" }}></i>
+    <i className="fab fa-js fa-4x" style={{ color: "#000" }}></i>
   </a>
 );
 const css = (
   <a href={`#`} target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-css3 fa-4x" style={{ color: "#000" }}></i>
+    <i className="fab fa-css3 fa-4x" style={{ color: "#000" }}></i>
   </a>
 );
 const html = (
   <a href={`#`} target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-html5 fa-4x" style={{ color: "#000" }}></i>
+    <i className="fab fa-html5 fa-4x" style={{ color: "#000" }}></i>
   </a>
 );
 

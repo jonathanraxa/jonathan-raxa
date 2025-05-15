@@ -64,15 +64,14 @@ export const SF_TOASTBUSTERS = {
 };
 
 export const PERSONAL_LINKS = {
-         linkedin: "https://www.linkedin.com/in/jonathanraxa",
-         facebook: "https://www.facebook.com/jraxa",
-         googleplus: "https://plus.google.com/+JonathanRaxa/posts",
-         github: "https://github.com/jonathanraxa",
-         twitter: "https://twitter.com/jonathanraxa",
-         devto: "https://dev.to/jonraxa",
-         wordpress: "http://introvertedintellect.com/",
-         medium: "https://medium.com/@jonathanraxa",
-       };
+    linkedin: "https://www.linkedin.com/in/jonathanraxa",
+    facebook: "https://www.facebook.com/jraxa",
+    github: "https://github.com/jonathanraxa",
+    twitter: "https://twitter.com/jonathanraxa",
+    devto: "https://dev.to/jonraxa",
+    wordpress: "http://introvertedintellect.com/",
+    medium: "https://medium.com/@jonathanraxa",
+};
 
 // portfolio objects
 export const VIDEDU = {

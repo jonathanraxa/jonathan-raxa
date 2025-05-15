@@ -26,21 +26,21 @@
         margin-top: 2rem;
         
         .head-button{
-            &:first-child{
-                margin-right: 1rem;
+            &-1, &-2 {
+                margin-right: 1rem
             }
             color: #fff;
             padding: 1rem 4rem;
             background-color: #343a40;
             text-transform: uppercase;
-            transition: 1s ease;
+            transition: .5s ease;
             font-weight: 400;
             border: 1px solid #fff;
 
             &:hover{
                 text-decoration: none;
                 color: #fec503;
-                font-size: 1.5rem;
+                // font-size: 1.5rem;
             }                         
         }        
     }     
@@ -531,21 +531,6 @@
             align-items: center;
         }
 
-        .panel{
-             transition: 1s ease;
-                @media(min-width: 987px){                 
-                    &:hover{                    
-                    cursor: pointer;
-
-                    img{
-                        transition: 1s ease;
-                        padding: 1rem;
-                    }
-                }
-            }  
-        }
-       
-                
        .panel {
              @media(min-width: 987px){
                 img {
@@ -559,9 +544,7 @@
              }
 
         }   
-          
     }
-
 
 
      &-description{
@@ -584,11 +567,6 @@
 }
 
   
-    
-
-
-
-
 .embed-container {position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } 
 .embed-container iframe, 
 .embed-container object, 
@@ -601,13 +579,6 @@
     margin:0;    
     font-weight: 300;
     
-    &--lines{
-        transition: 1s ease;
-        &:hover{
-            letter-spacing: .2rem;
-        }
-    }
-
     &--bolded{
         color: #fec503;
         text-transform: uppercase;

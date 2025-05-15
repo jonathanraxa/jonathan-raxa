@@ -3,22 +3,22 @@ import { PERSONAL_LINKS, IMAGES } from '../../Assets/Assets';
 
 const linkedinIcon = (
   <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-linkedin fa-4x"></i>
+    <i className="fab fa-linkedin fa-4x"></i>
   </a>
 );
 const mediumIcon = (
     <a href={PERSONAL_LINKS.medium} target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-medium fa-4x"></i>
+      <i className="fab fa-medium fa-4x"></i>
     </a>
 );
 const devtoIcon = (
   <a href={PERSONAL_LINKS.devto} target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-dev fa-4x"></i>
+    <i className="fab fa-dev fa-4x"></i>
   </a>
 );
 const githubIcon = (
   <a href={PERSONAL_LINKS.github} target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-github fa-4x"></i>
+    <i className="fab fa-github fa-4x"></i>
   </a>
 );
 const wordpressIcon = (

@@ -24,10 +24,7 @@ export default class NavBarHome extends Component {
   };
 
   render() {
-    // const { activeItem } = this.state;
-
     return (
-     
       <nav className="NavBarHome sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
         <RouteLink to={{ pathname: "/jonathan-raxa" }} className="navbar-brand">
           Jonathan Raxa
@@ -72,13 +69,6 @@ export default class NavBarHome extends Component {
             >
               resume
             </RouteLink>
-
-            {/* <a
-              href="https://www.google.com"
-              className="nav-item nav-link capitalizeLi"
-            >
-              blog
-            </a> */}
             <ScrollLink
               to="aboutme"
               onClick={this.handleClick}
@@ -89,9 +79,8 @@ export default class NavBarHome extends Component {
               duration={10}
               className="nav-item nav-link capitalizeLi"
             >
-              aboutme
+              about me
             </ScrollLink>
-
             <ScrollLink
               to="experience"
               onClick={this.handleClick}

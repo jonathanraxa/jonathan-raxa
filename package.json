@@ -51,6 +51,10 @@
     ]
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "eslint-plugin-react": "^7.37.5",
     "gh-pages": "^2.2.0"
   }
 }
