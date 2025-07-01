@@ -3,19 +3,16 @@ import React from "react";
 export const Contact = () => {
   return (
     <section id="contact">
-      <div className="bg-light">
-        <div className="row">
-          <div className="col-lg-12 text-center">
-            <div
-              className="section-title"
-              style={{ marginBottom: "4rem", marginTop: "4rem" }}
-            >
+      <div className="bg-gray-100">
+        <div className="flex justify-center">
+          <div className="w-full max-w-3xl text-center">
+            <div className="section-title mb-[4rem] mt-[4rem]">
               <h2>Contact</h2>
               <span style={{ fontSize: "17px" }}>
                 FOR{" "}
                 <i>
-                  <span style={{ color: "red" }}>
-                    <strong>CAREER INQUIRIES</strong>
+                  <span className="text-red-600 font-bold">
+                    CAREER INQUIRIES
                   </span>
                 </i>
               </span>
