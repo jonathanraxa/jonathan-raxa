@@ -1,5 +1,5 @@
 import React from "react";
-import { PERSONAL_LINKS, IMAGES } from '../../Assets/Assets';
+import { PERSONAL_LINKS, IMAGES } from "../../Assets/Assets";
 
 const linkedinIcon = (
   <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
@@ -7,9 +7,9 @@ const linkedinIcon = (
   </a>
 );
 const mediumIcon = (
-    <a href={PERSONAL_LINKS.medium} target="_blank" rel="noopener noreferrer">
-      <i className="fab fa-medium fa-4x"></i>
-    </a>
+  <a href={PERSONAL_LINKS.medium} target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-medium fa-4x"></i>
+  </a>
 );
 const devtoIcon = (
   <a href={PERSONAL_LINKS.devto} target="_blank" rel="noopener noreferrer">
@@ -56,7 +56,11 @@ const MainPanel = () => {
             <div className="full_panel-icon-rows">
               <div className="fake_link">
                 <div className="real_link">
-                  <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={PERSONAL_LINKS.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Linkedin
                   </a>
                 </div>
@@ -86,7 +90,11 @@ const MainPanel = () => {
           <div className="full_panel-icon-rows">
             <div className="fake_link">
               <div className="real_link">
-                <a href={PERSONAL_LINKS.github} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={PERSONAL_LINKS.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Github
                 </a>
               </div>
@@ -94,7 +102,11 @@ const MainPanel = () => {
             </div>
             <div className="fake_link">
               <div className="real_link">
-                <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={PERSONAL_LINKS.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Dev.to
                 </a>
               </div>
@@ -113,7 +125,11 @@ const MainPanel = () => {
           <div className="full_panel-icon-rows">
             <div className="fake_link">
               <div className="real_link">
-                <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={PERSONAL_LINKS.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Medium
                 </a>
               </div>
@@ -121,7 +137,11 @@ const MainPanel = () => {
             </div>
             <div className="fake_link">
               <div className="real_link">
-                <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={PERSONAL_LINKS.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Dev.to
                 </a>
               </div>
@@ -129,7 +149,11 @@ const MainPanel = () => {
             </div>
             <div className="fake_link">
               <div className="real_link">
-                <a href={PERSONAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={PERSONAL_LINKS.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Wordpress
                 </a>
               </div>
@@ -140,12 +164,11 @@ const MainPanel = () => {
           <div style={{ textAlign: "center", marginTop: "2rem" }}>
             <p>
               Five years of experience with front-end engineering in
-              technologies such as Responsive HTML, CSS, JavaScript, ReactJS, Node, JEST, & Cypress E2E.
+              technologies such as Responsive HTML, CSS, JavaScript, ReactJS,
+              Node, JEST, & Cypress E2E.
             </p>
             <br></br>
-            <p>
-              I've also worked with SFCC (Salesforce) & Python.
-            </p>
+            <p>I've also worked with SFCC (Salesforce) & Python.</p>
           </div>
         </div>
         <img

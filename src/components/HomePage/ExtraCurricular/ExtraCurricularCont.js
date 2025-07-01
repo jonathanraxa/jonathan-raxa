@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import IntroIntell from './IntroIntell';
-import Podcast from './Podcast';
-import Toastbusters from './Toastbusters';
+import IntroIntell from "./IntroIntell";
+import Podcast from "./Podcast";
+import Toastbusters from "./Toastbusters";
 import IntroIntellDescription from "./descriptions/IntroIntellDescription";
-import PodcastDescription from './descriptions/PodcastDescription';
+import PodcastDescription from "./descriptions/PodcastDescription";
 
 class ExtraCurricularCont extends Component {
   constructor(props) {
@@ -24,7 +24,7 @@ class ExtraCurricularCont extends Component {
           panel_3: false,
         });
         break;
-  
+
       case "panel_2":
         this.setState({
           panel_1: false,
@@ -51,11 +51,12 @@ class ExtraCurricularCont extends Component {
     }
   };
   render() {
-      
     return (
       <div className="extracurricular">
         <div className="extracurricular-icons">
-          <div onMouseEnter={() => this.showPersonal('panel_1')}><IntroIntell /></div>
+          <div onMouseEnter={() => this.showPersonal("panel_1")}>
+            <IntroIntell />
+          </div>
         </div>
         <div className="extracurricular-description">
           <IntroIntellDescription />
@@ -63,5 +64,5 @@ class ExtraCurricularCont extends Component {
       </div>
     );
   }
-};
+}
 export default ExtraCurricularCont;

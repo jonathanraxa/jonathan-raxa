@@ -1,22 +1,21 @@
 import React from "react";
 
-
 const LeaveALegacy = () => {
   return (
     <div className="col-lg-12 text-center">
-    <div className="section-title">
+      <div className="section-title">
         <div className="theMotto">
-        <p className="theMotto--lines">
+          <p className="theMotto--lines">
             <i>
-            Leave a{" "}
-            <span className="theMotto--bolded">
+              Leave a{" "}
+              <span className="theMotto--bolded">
                 <strong>legacy</strong>
-            </span>
-            .
+              </span>
+              .
             </i>
-        </p>
+          </p>
         </div>
-    </div>
+      </div>
     </div>
   );
 };

@@ -6,6 +6,5 @@ const Toastbusters = () => {
       <img src={IMAGES.sftoastbusters_logo} />
     </div>
   );
-  
 };
 export default Toastbusters;

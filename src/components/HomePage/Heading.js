@@ -1,5 +1,5 @@
 import React from "react";
-import { Link as RouteLink } from 'react-router-dom';
+import { Link as RouteLink } from "react-router-dom";
 
 const Heading = () => {
   return (

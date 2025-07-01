@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import { Link as RouteLink } from 'react-router-dom';
+import { Link as RouteLink } from "react-router-dom";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 import "../../sass/Evergreen.scss";
-import '../../containers/App.css';
+import "../../containers/App.css";
 
 export default class NavBarHome extends Component {
-    
   constructor(props) {
     super(props);
     this.state = { isToggleOn: false };
@@ -15,8 +14,8 @@ export default class NavBarHome extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
   handleClick() {
-    this.setState(state => ({
-      isToggleOn: !state.isToggleOn
+    this.setState((state) => ({
+      isToggleOn: !state.isToggleOn,
     }));
   }
   scrollToTop = () => {

@@ -2,7 +2,6 @@ import React from "react";
 import { INTROVERTED_INTELLECT } from "../../../Assets/Assets";
 
 const IntroIntellDescription = () => {
-
   return (
     <div className="animate-me">
       <a

@@ -6,19 +6,23 @@ import "../../../sass/Portfolio.scss";
 class Portfolio2 extends React.Component {
   constructor(props, context) {
     super(props, context);
-    this.handleShow  = this.handleShow.bind(this);
+    this.handleShow = this.handleShow.bind(this);
     this.handleClose = this.handleClose.bind(this);
     this.state = { show: false };
   }
-  handleClose() { this.setState({ show: false }) }
-  handleShow() { this.setState({ show: true }) }
+  handleClose() {
+    this.setState({ show: false });
+  }
+  handleShow() {
+    this.setState({ show: true });
+  }
 
   render() {
     const date = this.props.date;
-    const title = this.props.title;    
+    const title = this.props.title;
     const location = this.props.location;
     const extra_resource = this.props.extra_resource;
-    const extra_resource_TF = this.props.extra_resource_TF;    
+    const extra_resource_TF = this.props.extra_resource_TF;
     const description = this.props.description;
     const website_title = this.props.website_title;
     const website_link = this.props.website_link;
@@ -30,11 +34,10 @@ class Portfolio2 extends React.Component {
     const languages = this.props.languages;
     const image = this.props.image;
 
-  const portfolio_title = <h2>{title}</h2>;
+    const portfolio_title = <h2>{title}</h2>;
 
     return (
       <>
-        
         {/* <div className="col-md-6 col-0-gutter">
           <div className="ot-portfolio-item">
             <figure className="effect-bubba">

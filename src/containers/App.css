@@ -1,5 +1,5 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 :root {
   --off-white: #fafafa;
@@ -14,46 +14,50 @@ html{
   margin: 0 auto;
   padding: 40px;
 }
-.fullWidth{
-  width:100%;
+.fullWidth {
+  width: 100%;
 }
-h3{
+h3 {
   font-weight: normal !important;
 }
-i.fab{
-  color:#fff;
+i.fab {
+  color: #fff;
 }
-.paddLeft{
-    padding-left: 1em;
+.paddLeft {
+  padding-left: 1em;
 }
-.paddLeft2em{
-    padding-left: 2em;
+.paddLeft2em {
+  padding-left: 2em;
 }
-.fullWidthCenter{
-  max-width:1280px;
+.fullWidthCenter {
+  max-width: 1280px;
   margin: 0 auto;
 }
 
-.custom-row-width ul{
-  padding-left: .5em !important;
+.custom-row-width ul {
+  padding-left: 0.5em !important;
 }
-.custom-row-width-col{
-  padding-left:0 !important;
-  padding-right:0 !important;
+.custom-row-width-col {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 @media (max-width: 767px) {
-  .sds_hide-at-lg{
+  .sds_hide-at-lg {
     display: none;
   }
-  .mz-about-container{
+  .mz-about-container {
     padding: 0 !important;
   }
-  .row{margin:0 auto;}
-  .row-0-gutter{margin:0 auto;}
+  .row {
+    margin: 0 auto;
+  }
+  .row-0-gutter {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 768px) {
-  .sds_show-at-lg{
+  .sds_show-at-lg {
     display: block;
   }
 }
