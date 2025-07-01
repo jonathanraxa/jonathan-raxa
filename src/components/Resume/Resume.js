@@ -25,18 +25,30 @@ class Resume extends Component {
                   <h1 className="upperCase">jonathan raxa</h1>
                 </div>
                 <div className="col-md-12">
-                  Austin, TX 78745&nbsp;|&nbsp;
+                  <div className='location'>
+                    Austin Metropolitan Area, TX
+                  </div>
+                <div className='top-nav-links'>
                   <a href="mailto:jonathanraxa@gmail.com">
-                    jonathanraxa@gmail.com
-                  </a>
-                  &nbsp;|&nbsp;
-                  <a
-                    href="https://www.linkedin.com/in/jonathanraxa/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    LinkedIn
-                  </a>
+                          Email
+                        </a>
+                        <div>|</div>
+                        <a
+                          href="https://www.linkedin.com/in/jonathanraxa/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          LinkedIn
+                        </a>
+                        <div>|</div>
+                        <a
+                          target="_blank"
+                          href="https://www.github.com/jonathanraxa/"
+                          rel="noopener noreferrer"
+                        >
+                          GitHub
+                        </a>
+                </div>
                 </div>
               </div>
               <div className="body-container leftAlign">

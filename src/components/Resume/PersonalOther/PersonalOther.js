@@ -10,24 +10,9 @@ const Personal = () => {
                 </div>
             </div>
 
-            {/* GAP INC */}
             <div className="gapinc">
-                
                 <div className="row no-gutters">
-                    <div className="col-md-2">2018 - 2019</div>
-                    <div className="col-md-8"><strong>Introverted Intellect – Personal Project</strong></div>
-                    <div className="col-md-2"><strong>San Francisco, CA</strong></div>
-                </div>
-                <div className="row no-gutters offset-md-2">Podcast and blog centered around overcoming social anxieties</div>
-                <div className="row no-gutters offset-md-2"><a href="https://introvertedintellect.com/" target="_blank" rel="noopener noreferrer">www.introvertedintellect.com</a></div>
-                <div className="row no-gutters offset-md-2">
-             
-                </div>
-
-
-                <br />
-                <div className="row no-gutters">
-                    <div className="col-md-2">2018 - Present</div>
+                    <div className="col-md-2">2018 - 2021</div>
                     <div className="col-md-8"><strong>SF Toastbusters, VP of Public Relations | Toastmasters International</strong></div>
                     <div className="col-md-2"><strong>San Francisco, CA</strong></div>
                 </div>

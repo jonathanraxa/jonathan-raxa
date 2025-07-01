@@ -26,6 +26,17 @@
 .Resume{
   margin-top:1em;
 }
+.location {
+    margin-top: 1rem;
+}
+.top-nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 /* hover state over projects */
 .Collapsible__trigger {
